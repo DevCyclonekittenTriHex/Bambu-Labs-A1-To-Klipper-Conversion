@@ -7,3 +7,18 @@ Bill of Materials (In development):[BOM](https://docs.google.com/spreadsheets/d/
 
 Discord:
 https://discord.gg/Ssx37MAkGv
+
+
+
+Information about what we need:
+
+Motors -> 4 Pin JST XH connector
+
+Fans -> 4 Pin PWM Fans
+
+Filament Sensor -> Ribbon cable (unidentified)
+
+Eddy Sensor -> Two wires (unidentified)
+
+Heatbed -> (unidentified)
+
