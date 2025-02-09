@@ -29,8 +29,8 @@ All items here are from stock a1, attempting to use stock so its an easy upgrade
 ✔️ Part Cooling Fan: 24v 0.25a
 - Connected 4 pin JST XH, might need splicing
 
-✔️ Hotend Cooling Fan: (Voltage Unknown)
-- Connected by 4 pin JST XH, might need splicing
+✔️ Hotend Cooling Fan: 5v 0.4a
+- Connected by 5 pin JST XH, Needs splicing to fit in port. Possibly a voltage converter.
 
 # Unsolved:
 ❓Filament Sensor : Ribbon cable (unidentified)
