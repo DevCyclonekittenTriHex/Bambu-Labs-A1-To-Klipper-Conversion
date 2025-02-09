@@ -15,7 +15,7 @@ https://discord.gg/Ssx37MAkGv
 # Information about what we need:
 All items here are from stock a1, attempting to use stock so its an easy upgrade.
 
-✔️ Motors -> 4 Pin JST XH connector
+✔️ Motors : 4 Pin JST XH connector
 - Insert as usual
 
 ✔️ Hotend Thermister : Wierd Connector
@@ -24,15 +24,27 @@ All items here are from stock a1, attempting to use stock so its an easy upgrade
 ✔️ Hotend Heater : Wierd Connector
 - Splice into 2 Pin JST XH
 
+✔️ Bed Levelling:
+- Add Biqu Microprobe or Bed Levelling Sensor
+
 ❓Fans : 4 Pin JST XH (Voltage input unknown)
 - Put into port or splice
 
-❓Filament Sensor -> Ribbon cable (unidentified)
+❓Filament Sensor : Ribbon cable (unidentified)
 - Replace with any filament sensor.
 
-❓Eddy Sensor -> Two wires (unidentified)
+❓Eddy Sensor : Two wires (unidentified)
 - ? Possibly plug into rpi and somehow code into klipper flow calibration.
 
-❓Heatbed -> (unidentified)
+❓Heatbed : (unidentified)
 - ? Probs just get bambu ac board and find pinout.
+
+❓Camera Unit : (unidentified 5 pin JST connector) (pinout unknown)
+- ? Wire in to the motor board or rpi board
+
+❔ AMS lite : Closed Source
+- Will develop open AMS lite or find one that can work with klipper (Next Project)
+
+
+
 
