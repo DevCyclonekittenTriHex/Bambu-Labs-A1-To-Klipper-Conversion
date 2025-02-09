@@ -45,6 +45,9 @@ All items here are from stock a1, attempting to use stock so its an easy upgrade
 ❓Camera Unit : (unidentified 5 pin JST connector) (pinout unknown)
 - ? Wire in to the motor board or rpi board
 
+❓Display : (Unidentified Ribbon cable)
+- ? Bambu Says A1m uses 4SPI.
+
 ❔ AMS lite : Closed Source
 - Will develop open AMS lite or find one that can work with klipper (Next Project)
 
