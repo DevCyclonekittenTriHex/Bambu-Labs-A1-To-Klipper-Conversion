@@ -7,6 +7,8 @@ Bill of Materials :[BOM](https://docs.google.com/spreadsheets/d/1AV4G6ZVxCB9UINE
 
 Discord : [A1 Klipper Mod](https://discord.gg/Ssx37MAkGv)
 
+Fund Me: [Here](https://ko-fi.com/cyclonekitten) (Non functional)
+
 # Doing any Modifications here WILL void your warrenty of your bambu labs printer.
 
 # Information about what we need:
