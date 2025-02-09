@@ -1,8 +1,11 @@
-# Bambu-Labs-A1-To-Klipper-Conversion
+# Bambu-Labs-A1-To-Klipper-Conversion (In Development)
+The aim of this project is to add klipper functional to the powerful bambu labs a1.
+Due to the recent push for "privacy and security", people are wanting to add freedom back to their machines.
 
-# This project is currently under development, do not attempt to build.
+#Doing any Modifications here WILL void your warrenty of your bambu labs printer.
 
-Bill of Materials (In development):[BOM](https://docs.google.com/spreadsheets/d/1AV4G6ZVxCB9UINE7sgqaOE8Zk1H3DC7Mk_idkd3VZ8s/edit?usp=sharing)
+
+Bill of Materials :[BOM](https://docs.google.com/spreadsheets/d/1AV4G6ZVxCB9UINE7sgqaOE8Zk1H3DC7Mk_idkd3VZ8s/edit?usp=sharing)
 
 Discord:
 https://discord.gg/Ssx37MAkGv
