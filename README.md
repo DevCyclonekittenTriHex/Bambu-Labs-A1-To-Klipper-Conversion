@@ -10,7 +10,7 @@ https://discord.gg/Ssx37MAkGv
 
 
 
-Information about what we need:
+# Information about what we need:
 
 Motors -> 4 Pin JST XH connector
 
