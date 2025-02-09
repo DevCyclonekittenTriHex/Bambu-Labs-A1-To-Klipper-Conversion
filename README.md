@@ -21,3 +21,7 @@ Eddy Sensor -> Two wires (unidentified)
 
 Heatbed -> (unidentified)
 
+Hotend Thermister -> Wierd connector -> Spliced then into 2 Pin JST GH
+
+Hotend Heater -> Wierd Connector -> Spliced then into 2 Pin JST XH
+
