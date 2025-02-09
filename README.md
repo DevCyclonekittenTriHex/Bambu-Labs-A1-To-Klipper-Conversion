@@ -51,6 +51,6 @@ All items here are from stock a1, attempting to use stock so its an easy upgrade
 ❔ AMS lite : Closed Source
 - Will develop open AMS lite or find one that can work with klipper (Next Project)
 
-
-
+# PCB for Non destructive Modifications:
+After the printer works, i will create a pcb so you dont have to splice cables.
 
