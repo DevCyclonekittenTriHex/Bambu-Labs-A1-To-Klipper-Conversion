@@ -15,6 +15,8 @@ https://discord.gg/Ssx37MAkGv
 # Information about what we need:
 All items here are from stock a1, attempting to use stock so its an easy upgrade.
 
+
+#Solved:
 ✔️ Motors : 4 Pin JST XH connector
 - Insert as usual
 
@@ -27,9 +29,13 @@ All items here are from stock a1, attempting to use stock so its an easy upgrade
 ✔️ Bed Levelling:
 - Add Biqu Microprobe or Bed Levelling Sensor
 
-❓Fans : 4 Pin JST XH (Voltage input unknown)
-- Put into port or splice
+✔️ Part Cooling Fan: 24v 0.25a
+- Connected 4 pin JST XH, might need splicing
 
+✔️ Hotend Cooling Fan: (Voltage Unknown)
+- Connected by 4 pin JST XH, might need splicing
+
+#Unsolved:
 ❓Filament Sensor : Ribbon cable (unidentified)
 - Replace with any filament sensor.
 
