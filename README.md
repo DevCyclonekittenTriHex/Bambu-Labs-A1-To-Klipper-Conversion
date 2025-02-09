@@ -16,7 +16,7 @@ https://discord.gg/Ssx37MAkGv
 All items here are from stock a1, attempting to use stock so its an easy upgrade.
 
 
-#Solved:
+# Solved:
 ✔️ Motors : 4 Pin JST XH connector
 - Insert as usual
 
@@ -35,7 +35,7 @@ All items here are from stock a1, attempting to use stock so its an easy upgrade
 ✔️ Hotend Cooling Fan: (Voltage Unknown)
 - Connected by 4 pin JST XH, might need splicing
 
-#Unsolved:
+# Unsolved:
 ❓Filament Sensor : Ribbon cable (unidentified)
 - Replace with any filament sensor.
 
