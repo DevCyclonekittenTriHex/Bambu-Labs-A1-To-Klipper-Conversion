@@ -32,15 +32,15 @@ All items here are from stock a1, attempting to use stock so its an easy upgrade
 ✔️ Hotend Cooling Fan: 5v 0.4a
 - Connected by 5 pin JST XH, Needs splicing to fit in port. Possibly a voltage converter.
 
+✔️ Heatbed : Mains Powered, 2 Cables
+- Attach to two terminals, get board with enough power.
+
 # Unsolved:
 ❓Filament Sensor : Ribbon cable (unidentified)
 - Replace with any filament sensor.
 
 ❓Eddy Sensor : Two wires (unidentified)
 - ? Possibly plug into rpi and somehow code into klipper flow calibration.
-
-❓Heatbed : (unidentified)
-- ? Probs just get bambu ac board and find pinout.
 
 ❓Camera Unit : (unidentified 5 pin JST connector) (pinout unknown)
 - ? Wire in to the motor board or rpi board
