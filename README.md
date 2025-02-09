@@ -10,18 +10,26 @@ https://discord.gg/Ssx37MAkGv
 
 
 # Information about what we need:
+All items here are from stock a1, attempting to use stock so its an easy upgrade.
 
-Motors -> 4 Pin JST XH connector
+✔️ Motors -> 4 Pin JST XH connector
+- Insert as usual
 
-Fans -> 4 Pin PWM Fans
+✔️ Hotend Thermister : Wierd Connector
+- Splice into 2 Pin JST GH
 
-Filament Sensor -> Ribbon cable (unidentified)
+✔️ Hotend Heater : Wierd Connector
+- Splice into 2 Pin JST XH
 
-Eddy Sensor -> Two wires (unidentified)
+❓Fans : 4 Pin JST XH (Voltage input unknown)
+- Put into port or splice
 
-Heatbed -> (unidentified)
+❓Filament Sensor -> Ribbon cable (unidentified)
+- Replace with any filament sensor.
 
-Hotend Thermister -> Wierd connector -> Spliced then into 2 Pin JST GH
+❓Eddy Sensor -> Two wires (unidentified)
+- ? Possibly plug into rpi and somehow code into klipper flow calibration.
 
-Hotend Heater -> Wierd Connector -> Spliced then into 2 Pin JST XH
+❓Heatbed -> (unidentified)
+- ? Probs just get bambu ac board and find pinout.
 
