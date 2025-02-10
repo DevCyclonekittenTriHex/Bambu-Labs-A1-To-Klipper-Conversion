@@ -3,6 +3,7 @@
 The aim of this project is to add klipper functional to the powerful bambu labs a1.
 Due to the recent push for "privacy and security", people are wanting to add freedom back to their machines.
 
+To be updated once all the cables and 3d files are availiable.
 Bill of Materials :[BOM](https://docs.google.com/spreadsheets/d/1AV4G6ZVxCB9UINE7sgqaOE8Zk1H3DC7Mk_idkd3VZ8s/edit?usp=sharing)
 
 Discord : [A1 Klipper Mod](https://discord.gg/Ssx37MAkGv)
