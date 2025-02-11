@@ -12,33 +12,40 @@ Bill of Materials :[BOM](https://docs.google.com/spreadsheets/d/1AV4G6ZVxCB9UINE
 Discord : [A1 Klipper Mod](https://discord.gg/Ssx37MAkGv)
 
 # Printer Parts Functionality
-Functional Parts:\n
-✔️ Motors\n
-✔️ Hotend Thermister / Heater\n
-✔️ Part / Extruder Fan Cooling\n
-✔️ Heatbed (May Require SSR board)\n
+**Functional Parts:**
+- ✔️ Motors
+- ✔️ Hotend Thermister / Heater
+- ✔️ Part / Extruder Fan Cooling
+- ✔️ Heatbed (May Require SSR board)
 
-Not Functional Parts (May be solved)
-❓Filament Sensor (Some Ribbon cable, probs 5x1 pin)
-❓Eddy Sensor (two wires)
-❓Camera Unit (5 pin, pinout unknown)
-❓Display (Some Ribbon cable, bambu says its 4spi
-
-❓AMS Lite (Will be next project)
+**Not Functional Parts (May be solved)**
+- ❓Filament Sensor (Some Ribbon cable, probs 5x1 pin thats standard, need to verify)
+- ❓Eddy Sensor (two wires)
+- ❓Camera Unit (5 pin, pinout unknown)
+- ❓Display (Some Ribbon cable, bambu says its 4spi
+- ❓AMS Lite (Will be next project)
 
 # Timeline
 ✔️ Planning:
   - Includes all the imformation to get the printer working
-Prototype assembly
+  - Finding out pinout for stock parts
+
+Prototype assembly and Klipper Setup
   - Cheap assembly to verify that parts work
-Klipper setup
-  - Setting up klipper on printer + config file.
-Pcb Designing
-  - PCB designing to make less of cable mess, + easier to install.
-Beta Assembly
+  - Klipper setup
+    
+Beta Assembly and PCB designing
   - Assembly will all functionality + pcbs
+  - 3D Printed Parts and Enclosure
+  - Complete Bill of Materials
+  - PCBs to make install easier
+  - PCBs to remove cable mess.
+    
 Feedback + Modifications
-  - Open feedback from the public, people can attempt building and share results.
+  - Integrate feedback into full project release
+  - Iron out bugs / Issues in build installation
+  - Form to submit feedback
+  - Includes Guide Development
   
 Possibly a shop to sell a1 mod kit.
   - A kit that includes all the parts to mod an a1
