@@ -2,6 +2,7 @@
 
 > [!Caution]
 > This Project is in Development, Doing any modifications will void your warrenty.
+
 The aim of this project is to add klipper functional to the powerful bambu labs a1.
 Due to the recent push for "privacy and security", people are wanting to add freedom back to their machines.
 
