@@ -1,5 +1,8 @@
 # Bambu-Labs-A1-To-Klipper-Conversion (In Development):
 
+> [!Caution]
+> This Project is in **BETA**, doing this conversion is fully at your own risk, I am not responsible for any damages done to your machine. This also will likely void your warranty.
+
 The aim of this project is to add klipper functional to the powerful bambu labs a1.
 Due to the recent push for "privacy and security", people are wanting to add freedom back to their machines.
 
@@ -8,51 +11,40 @@ Bill of Materials :[BOM](https://docs.google.com/spreadsheets/d/1AV4G6ZVxCB9UINE
 
 Discord : [A1 Klipper Mod](https://discord.gg/Ssx37MAkGv)
 
+#Printer Parts Functionality
+Functional Parts:\n
+✔️ Motors\n
+✔️ Hotend Thermister / Heater\n
+✔️ Part / Extruder Fan Cooling\n
+✔️ Heatbed (May Require SSR board)\n
 
-# Doing any Modifications here WILL void your warrenty of your bambu labs printer.
+Not Functional Parts (May be solved)
+❓Filament Sensor (Some Ribbon cable, probs 5x1 pin)
+❓Eddy Sensor (two wires)
+❓Camera Unit (5 pin, pinout unknown)
+❓Display (Some Ribbon cable, bambu says its 4spi
 
-# Information about what we need:
-All items here are from stock a1, attempting to use stock so its an easy upgrade.
+❓AMS Lite (Will be next project)
+
+#Timeline
+✔️ Planning:
+  -Includes all the imformation to get the printer working
+Prototype assembly
+  -Cheap assembly to verify that parts work
+Klipper setup
+  -Setting up klipper on printer + config file.
+Pcb Designing
+  -PCB designing to make less of cable mess, + easier to install.
+Beta Assembly
+  -Assembly will all functionality + pcbs
+Feedback + Modifications
+  -Open feedback from the public, people can attempt building and share results.
+  
+Possibly a shop to sell a1 mod kit.
+  -A kit that includes all the parts to mod an a1
+  -Cheap kit: skr pico, pi zero
+  -Full Kit: btt manta m4p, cb1 /2 (idk yet)
+  -Includes instructions and everything at a reasonable price.
 
 
-# Solved:
-✔️ Motors : 4 Pin JST XH connector
-- Insert as usual
-
-✔️ Hotend Thermister : Wierd Connector
-- Splice into 2 Pin JST GH
-
-✔️ Hotend Heater : Wierd Connector
-- Splice into 2 Pin JST XH
-
-✔️ Bed Levelling:
-- Add Biqu Microprobe or Bed Levelling Sensor
-
-✔️ Part Cooling Fan: 24v 0.25a
-- Connected 4 pin JST XH, might need splicing
-
-✔️ Hotend Cooling Fan: 5v 0.4a
-- Connected by 5 pin JST XH, Needs splicing to fit in port. Possibly a voltage converter.
-
-✔️ Heatbed : Mains Powered, 2 Cables
-- Attach to two terminals, get board with enough power.
-
-# Unsolved:
-❓Filament Sensor : Ribbon cable (unidentified)
-- Replace with any filament sensor.
-
-❓Eddy Sensor : Two wires (unidentified)
-- ? Possibly plug into rpi and somehow code into klipper flow calibration.
-
-❓Camera Unit : (unidentified 5 pin JST connector) (pinout unknown)
-- ? Wire in to the motor board or rpi board
-
-❓Display : (Unidentified Ribbon cable)
-- ? Bambu Says A1m uses 4SPI.
-
-❔ AMS lite : Closed Source
-- Will develop open AMS lite or find one that can work with klipper (Next Project)
-
-# PCB for Non destructive Modifications:
-After the printer works, i will create a pcb so you dont have to splice cables.
 
