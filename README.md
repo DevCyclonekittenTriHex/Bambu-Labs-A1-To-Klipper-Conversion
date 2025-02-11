@@ -11,7 +11,7 @@ Bill of Materials :[BOM](https://docs.google.com/spreadsheets/d/1AV4G6ZVxCB9UINE
 
 Discord : [A1 Klipper Mod](https://discord.gg/Ssx37MAkGv)
 
-#Printer Parts Functionality
+# Printer Parts Functionality
 Functional Parts:\n
 ✔️ Motors\n
 ✔️ Hotend Thermister / Heater\n
@@ -26,25 +26,25 @@ Not Functional Parts (May be solved)
 
 ❓AMS Lite (Will be next project)
 
-#Timeline
+# Timeline
 ✔️ Planning:
-  -Includes all the imformation to get the printer working
+  - Includes all the imformation to get the printer working
 Prototype assembly
-  -Cheap assembly to verify that parts work
+  - Cheap assembly to verify that parts work
 Klipper setup
-  -Setting up klipper on printer + config file.
+  - Setting up klipper on printer + config file.
 Pcb Designing
-  -PCB designing to make less of cable mess, + easier to install.
+  - PCB designing to make less of cable mess, + easier to install.
 Beta Assembly
-  -Assembly will all functionality + pcbs
+  - Assembly will all functionality + pcbs
 Feedback + Modifications
-  -Open feedback from the public, people can attempt building and share results.
+  - Open feedback from the public, people can attempt building and share results.
   
 Possibly a shop to sell a1 mod kit.
-  -A kit that includes all the parts to mod an a1
-  -Cheap kit: skr pico, pi zero
-  -Full Kit: btt manta m4p, cb1 /2 (idk yet)
-  -Includes instructions and everything at a reasonable price.
+  - A kit that includes all the parts to mod an a1
+  - Cheap kit: skr pico, pi zero
+  - Full Kit: btt manta m4p, cb1 /2 (idk yet)
+  - Includes instructions and everything at a reasonable price.
 
 
 
