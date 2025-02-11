@@ -26,28 +26,28 @@ Discord : [A1 Klipper Mod](https://discord.gg/Ssx37MAkGv)
 - ❓AMS Lite (Will be next project)
 
 # Timeline
-✔️ Planning:
+✔️ [11/02/2025] Planning:
   - Includes all the imformation to get the printer working
   - Finding out pinout for stock parts
 
-Prototype assembly and Klipper Setup
+❔[planned 10/03/2025] Prototype assembly and Klipper Setup
   - Cheap assembly to verify that parts work
   - Klipper setup
     
-Beta Assembly and PCB designing
+❔[planned 20/04/2025] Beta Assembly and PCB designing
   - Assembly will all functionality + pcbs
   - 3D Printed Parts and Enclosure
   - Complete Bill of Materials
   - PCBs to make install easier
   - PCBs to remove cable mess.
     
-Feedback + Modifications
+❔[no planned date] Feedback + Modifications
   - Integrate feedback into full project release
   - Iron out bugs / Issues in build installation
   - Form to submit feedback
   - Includes Guide Development
   
-Possibly a shop to sell a1 mod kit.
+❔[not guarenteed] Possibly a shop to sell a1 mod kit.
   - A kit that includes all the parts to mod an a1
   - Cheap kit: skr pico, pi zero
   - Full Kit: btt manta m4p, cb1 /2 (idk yet)
