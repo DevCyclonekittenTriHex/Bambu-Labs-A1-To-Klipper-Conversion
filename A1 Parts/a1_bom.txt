@@ -1,19 +1,18 @@
-BOM (Prototype):
+not added yet.
+look at gsheets for pricing
 
-Raspberry pi 4:
-no link
+skr pico
 
-Some jumper cables:
-no link
+p1s ac board(not yet)
 
-Skr Pico:
-[SKR Pico](https://www.aliexpress.com/item/1005004046648820.html?spm=a2g0o.productlist.main.1.17342731CW5WOr&algo_pvid=641b385d-b070-44d4-903b-b724e8ed331f&algo_exp_id=641b385d-b070-44d4-903b-b724e8ed331f-0&pdp_ext_f=%7B"order"%3A"172"%2C"eval"%3A"1"%7D&pdp_npi=4%40dis%21AUD%2143.03%2136.93%21%21%2126.81%2123.01%21%402103209b17396757150205758ef9e7%2112000034962891651%21sea%21AU%216240310606%21ABX&curPageLogUid=QmlcZ60IKdNQ&utparam-url=scene%3Asearch%7Cquery_from%3A)
+rpi zero 2w 
 
-Molex Connector 1.5M (Look for shorter):
-[Molex Connector](https://www.aliexpress.com/item/1005008372446769.html?spm=a2g0o.productlist.main.5.5feeQYXRQYXRid&algo_pvid=79287a96-2751-43e6-9f99-0fc3784ca8e2&algo_exp_id=79287a96-2751-43e6-9f99-0fc3784ca8e2-2&pdp_ext_f=%7B"order"%3A"-1"%2C"eval"%3A"1"%7D&pdp_npi=4%40dis%21AUD%2114.09%2114.09%21%21%218.78%218.78%21%40210312d517396755367213585ec177%2112000044760668715%21sea%21AU%216240310606%21ABX&curPageLogUid=18ivfwaKgIOJ&utparam-url=scene%3Asearch%7Cquery_from%3A)
+2x10 jst XH 1 metre female to female
 
-JST XH 4 Pin XH 10cm
-[JSTXH]()
+JST Female to Female 10 cm Cables:
+-three XH 4 pin 
+-one GH 2 pin
+-three XH 2 pin
 
-Reed Switch (For fila sensor)
-[ReedSwitch](e)
+JST Male to Female 50cm Cables:
+-three XH 4 pin (XYZ motors)

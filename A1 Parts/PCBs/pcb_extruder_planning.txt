@@ -1,0 +1,26 @@
+Extruder board:
+Input:
+
+M JST XH 4 pin (Extruder Motor)
+
+M JST XH 5 pin (Extruder Fan)
+
+M JST XH 4 pin (Part Cooling Fan)
+
+M JST XH 2 pin (Spare DC Fan 1)
+
+M JST XH 2 pin (SPare DC Fan 2)
+
+Screw terminal 2 pin (Thermister)
+
+Screw terminal 2 pin (HotendHeating)
+
+Output:
+20 Pin 10x2 JST XH Female Connector ()
+-Motor 4
+-Fan1 4
+-Fan2 4
+-Spare fan 1 2
+-Spare fan 2 2
+-Thermister 2
+-Hotend Heating 2

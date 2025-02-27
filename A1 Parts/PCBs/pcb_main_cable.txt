@@ -1,0 +1,17 @@
+Main Seperation Board
+Input:
+Male 20 pin 2x10 JSTXH Connector
+
+Output:
+
+M JSTXH 4 pin (Extruder Motor)
+
+M JSTXH 2 pin (Spare fan 1)
+
+M JSTXH 2 pin (Spare fan 2)
+
+M JSTGH 2 pin (Thermister)
+
+M JSTXH 2 pin (Hotend Heating)
+
+2x (4 pin fan 1 & 2 unnasigned (may need seperation due to no 4 port pwm))
