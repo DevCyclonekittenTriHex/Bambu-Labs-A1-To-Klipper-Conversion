@@ -2,12 +2,12 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "2c6f0d05-350a-4e4e-887e-c97bc5a9b57b")
+	(uuid "763e8f8f-9e52-4f06-9d68-06c79d355bec")
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 24.13 59.69)
-		(size 22.86 80.01)
+		(at 66.04 60.96)
+		(size 16.51 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20,9 +20,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "5b02d540-a7c5-4e15-aa57-27cd47355539")
+		(uuid "fa37715d-b0fb-4a2f-9b5a-4f89c3e659df")
 		(property "Sheetname" "Toolhead_Board"
-			(at 24.13 58.9784 0)
+			(at 66.04 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "Toolhead_Board.kicad_sch"
-			(at 24.13 140.2846 0)
+			(at 66.04 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,9 +40,9 @@
 			)
 		)
 		(instances
-			(project "A1K Board"
-				(path "/2c6f0d05-350a-4e4e-887e-c97bc5a9b57b"
-					(page "12")
+			(project "A1K Adaptor Board"
+				(path "/763e8f8f-9e52-4f06-9d68-06c79d355bec"
+					(page "2")
 				)
 			)
 		)
