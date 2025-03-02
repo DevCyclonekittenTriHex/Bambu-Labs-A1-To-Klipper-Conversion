@@ -1,0 +1,426 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1dfe14b9-511b-4f2a-ad9b-70ff104a913e")
+	(paper "A4")
+	(title_block
+		(title "A1K CMBoard")
+		(date "2-03-2025")
+		(rev "v01")
+		(comment 2 "Open Hardware Licence")
+	)
+	(lib_symbols)
+	(sheet
+		(at 81.915 37.465)
+		(size 24.13 74.93)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66b678fb-d468-40bd-aec8-6d35a72e8432")
+		(property "Sheetname" "TMC Modules"
+			(at 81.915 36.7534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tmc_modules.kicad_sch"
+			(at 81.915 112.9796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "X_DIR" input
+			(at 81.915 50.8 180)
+			(uuid "d0187832-4feb-442b-a30e-5e824701860c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_ENABLE" input
+			(at 81.915 74.93 180)
+			(uuid "a013147a-7ac6-47e0-9e5e-539d2ca72fa2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI-CS" input
+			(at 81.915 92.71 180)
+			(uuid "78fdc28f-63ed-4a50-873f-f5e980e86db5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_STEP" input
+			(at 81.915 63.5 180)
+			(uuid "cababb8c-acff-406a-a158-a4d17ca9d6e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIAG" input
+			(at 81.915 90.17 180)
+			(uuid "609d9582-69db-4aee-b78e-e9c7a1a8262a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART" input
+			(at 81.915 87.63 180)
+			(uuid "a5dec2db-b963-4900-be3b-a3d115f0cae9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y_DIR" input
+			(at 81.915 53.34 180)
+			(uuid "8084ff6c-da9f-40b8-b4fb-03ee23394612")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_ENABLE" input
+			(at 81.915 80.01 180)
+			(uuid "dd592ace-816e-4127-9a31-2b73014327f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y_STEP" input
+			(at 81.915 66.04 180)
+			(uuid "d7cb0b7e-7e12-4bc7-b371-da86b0dbab3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Y_ENABLE" input
+			(at 81.915 77.47 180)
+			(uuid "da8db91a-f380-41ff-9f32-4c64ed17cdf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 81.915 43.18 180)
+			(uuid "5a6b32e4-845c-404f-b298-a090f8898875")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_DIR" input
+			(at 81.915 55.88 180)
+			(uuid "b1ded96d-a37e-4d2e-9d5e-a84aafbc874b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Z_STEP" input
+			(at 81.915 68.58 180)
+			(uuid "0d7ad6ac-7894-4e9b-b4d8-798d4fcddb76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S_DIR" input
+			(at 81.915 58.42 180)
+			(uuid "329bda38-1361-485e-9b20-c7e263b9bd34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S_STEP" input
+			(at 81.915 71.12 180)
+			(uuid "aa17884e-3be6-4267-bc8e-58a47690b02c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S_ENABLE" input
+			(at 81.915 82.55 180)
+			(uuid "f9d6182a-0b17-4534-b608-49f1f90422d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_BUS" input
+			(at 81.915 40.64 180)
+			(uuid "269dd483-9cf4-422c-98ba-4f9f2aaec4df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_BUS" input
+			(at 81.915 45.72 180)
+			(uuid "95fcaec8-e66d-425b-945e-31d5d931e577")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "rpi-cm4-base-carrier"
+				(path "/1dfe14b9-511b-4f2a-ad9b-70ff104a913e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 76.2)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "caa71f4c-454d-4ac9-b287-456eafb34991")
+		(property "Sheetname" "CM4 High Speed"
+			(at 21.59 75.5645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm4-high-speed.kicad_sch"
+			(at 21.59 114.8085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rpi-cm4-base-carrier"
+				(path "/1dfe14b9-511b-4f2a-ad9b-70ff104a913e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 37.465)
+		(size 38.1 32.385)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 132 0 132 1)
+		)
+		(fill
+			(color 255 255 255 0.0000)
+		)
+		(uuid "fc4c71a5-1008-4ac4-98db-57c838c57d91")
+		(property "Sheetname" "CM4 GPIO"
+			(at 21.59 36.8295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm4-gpio.kicad_sch"
+			(at 22.098 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO_14" input
+			(at 59.69 66.04 0)
+			(uuid "b861f6ce-bfad-480d-98ab-71e3d0f071a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_15" input
+			(at 59.69 68.58 0)
+			(uuid "23f4d34a-e9d4-4c59-ab64-b466f229caee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_5" input
+			(at 59.69 53.34 0)
+			(uuid "86da6966-1899-40ea-9783-0510577351ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_6" input
+			(at 59.69 55.88 0)
+			(uuid "03eb5ec7-fe34-4396-b3ac-0b31c04a7b1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_13" input
+			(at 59.69 58.42 0)
+			(uuid "bf33523d-5749-41f3-8d2c-8b898cb6868e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_19" input
+			(at 59.69 60.96 0)
+			(uuid "fa392e6b-3a7b-4245-bb7e-bf678649ac85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_20" input
+			(at 59.69 40.64 0)
+			(uuid "5a82839f-277f-4bec-84b1-2376c35247a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_21" input
+			(at 59.69 43.18 0)
+			(uuid "9950a915-0bfc-477e-95b5-f7340f5cef4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_16" input
+			(at 59.69 45.72 0)
+			(uuid "c2718375-1b78-4d2e-97bc-f93fbac51b96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_12" input
+			(at 59.69 48.26 0)
+			(uuid "9a997504-b870-448a-870d-27d54b3c7449")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rpi-cm4-base-carrier"
+				(path "/1dfe14b9-511b-4f2a-ad9b-70ff104a913e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
