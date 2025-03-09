@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "68012dc4-ff9f-47ea-a272-4c198c6ece83")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 73.025 67.945)
+		(size 21.59 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22c9496a-aa72-4b38-b7e5-3f5fbd188317")
+		(property "Sheetname" "TH_IO"
+			(at 73.025 67.2334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TH_IO.kicad_sch"
+			(at 73.025 126.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A1K_TH"
+				(path "/68012dc4-ff9f-47ea-a272-4c198c6ece83"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
