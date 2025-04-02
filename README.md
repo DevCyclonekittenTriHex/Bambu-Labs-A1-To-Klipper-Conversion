@@ -34,4 +34,4 @@ Here are some pcbs that I have designed (I HAVE NOT TESTED)
 
 # AMS Board (Designed for Pico MMU)
 I may create my own AMS Lite for this printer.
-![A1K AMS Board](Images\OpenA1K_AMSBoard.png)
+![A1K AMS Board](Images/OpenA1K_AMSBoard.png)
