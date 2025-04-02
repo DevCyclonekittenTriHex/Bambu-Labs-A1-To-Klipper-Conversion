@@ -2927,7 +2927,7 @@
 		)
 		(uuid "73f6ec7a-9cff-48f6-a9bd-cd41ed254dc5")
 	)
-	(hierarchical_label "G9"
+	(hierarchical_label "GND"
 		(shape input)
 		(at 91.44 17.78 0)
 		(effects
@@ -3004,7 +3004,7 @@
 		)
 		(uuid "8dc255c4-f250-40e9-b522-643829b0298d")
 	)
-	(hierarchical_label "SV_SIG"
+	(hierarchical_label "SV_SIG1"
 		(shape input)
 		(at 22.86 40.64 180)
 		(effects
@@ -3092,7 +3092,7 @@
 		)
 		(uuid "975e9d1c-8612-4eab-b8ef-534af319ae43")
 	)
-	(hierarchical_label "SV_SIG"
+	(hierarchical_label "SV_SIG1"
 		(shape input)
 		(at 21.59 146.05 180)
 		(effects
@@ -3113,6 +3113,28 @@
 			(justify left)
 		)
 		(uuid "9ab93ef3-43e6-476b-83fa-090b3008c7ba")
+	)
+	(hierarchical_label "SV_SIG2"
+		(shape input)
+		(at 21.59 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a03d6f8d-7110-4cc3-a70f-eb0fbaab22e8")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 21.59 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6ecff8d-041e-44b6-b9d3-380c052ee32a")
 	)
 	(hierarchical_label "G10"
 		(shape input)
@@ -3146,6 +3168,17 @@
 			(justify left)
 		)
 		(uuid "b829dde8-bcaf-41cc-adb5-6b651a5fe672")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 21.59 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6bfe9d5-ff9d-448a-b030-98c5515558d4")
 	)
 	(hierarchical_label "G27"
 		(shape input)
@@ -3235,7 +3268,7 @@
 		)
 		(uuid "d5a68320-bb41-44ca-93e7-55e491ea158a")
 	)
-	(hierarchical_label "G9"
+	(hierarchical_label "SV_SIG2"
 		(shape input)
 		(at 22.86 43.18 180)
 		(effects
@@ -3592,6 +3625,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 26.67 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d33ca02-e8a3-48a8-a885-d0769ed2ccda")
+		(property "Reference" "J9"
+			(at 29.21 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Servo2"
+			(at 29.21 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5038fe86-4af7-415c-83de-d0b222fd06fc")
+		)
+		(pin "2"
+			(uuid "3ae34178-2e7d-41a4-be5f-b33910e37c59")
+		)
+		(pin "3"
+			(uuid "2c0bad65-8977-4713-b905-1ed81dd165ca")
+		)
+		(instances
+			(project "A1_AMS"
+				(path "/989d6d42-19bd-451f-8ed3-d8ee079df240"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 85.09 44.45 0)
 		(unit 1)
@@ -3617,7 +3723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 85.09 44.45 0)
 			(effects
 				(font
@@ -4024,7 +4130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Servo"
+		(property "Value" "Servo1"
 			(at 29.21 144.7799 0)
 			(effects
 				(font
@@ -4033,7 +4139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 26.67 143.51 0)
 			(effects
 				(font
@@ -4353,7 +4459,7 @@
 				)
 			)
 		)
-		(property "Value" "9-10-11-14-15"
+		(property "Value" "G-10-11-14-15"
 			(at 86.995 15.24 0)
 			(effects
 				(font
@@ -4361,7 +4467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 86.36 22.86 0)
 			(effects
 				(font
@@ -4641,7 +4747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 85.09 62.23 0)
 			(effects
 				(font
@@ -4922,7 +5028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 85.09 80.01 0)
 			(effects
 				(font
