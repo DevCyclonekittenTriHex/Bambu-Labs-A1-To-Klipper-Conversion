@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "21133c32-3cd4-4050-babc-e77cc2031358")
+	(paper "A5")
+	(title_block
+		(title "OpenA1Klipper (Based on Nyoomies KME)")
+		(date "2024-04-01")
+		(rev "4.3")
+		(company "Cyclonekitten")
+		(comment 1 "CERN OHL v2 - S")
+	)
+	(lib_symbols)
+	(sheet
+		(at 24.13 20.955)
+		(size 34.29 31.115)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2df31033-849e-4f42-8360-2ac27bde91b0")
+		(property "Sheetname" "Mainboard-OpenA1K"
+			(at 24.13 20.2434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "Mainboard-OpenA1K.kicad_sch"
+			(at 24.13 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OpenA1K"
+				(path "/21133c32-3cd4-4050-babc-e77cc2031358"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 20.955)
+		(size 32.385 31.115)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a164b81-1b5c-4837-b2e1-1d237fa58bb9")
+		(property "Sheetname" "Toolhead-OpenA1K"
+			(at 63.5 20.2434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Toolhead-OpenA1K.kicad_sch"
+			(at 63.5 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OpenA1K"
+				(path "/21133c32-3cd4-4050-babc-e77cc2031358"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

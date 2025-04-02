@@ -30,3 +30,8 @@ All items here are from stock a1, attempting to use stock so its an easy upgrade
 # PCBing:
 After the printer works, i will create a pcb so you dont have to splice cables.
 
+Here are some pcbs that I have designed (I HAVE NOT TESTED)
+
+# AMS Board (Designed for Pico MMU)
+I may create my own AMS Lite for this printer.
+![A1K AMS Board](Images\OpenA1K_AMSBoard.png)
