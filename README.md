@@ -34,4 +34,9 @@ Here are some pcbs that I have designed (I HAVE NOT TESTED)
 
 # AMS Board (Designed for Pico MMU)
 
-![A1K AMS Board](Images\OpenA1K_AMSBoard.png)
+![A1K AMS Board](Images/OpenA1K_AMSBoard.png)
+# Toolhead Board (Not Functional)
+![A1K TH Board](Images/OpenA1K_THBoard.png)
+
+# Main Controller Board (Not Functional)
+![A1K MCU Board](Images/OpenA1K_MCUBoard.png)
