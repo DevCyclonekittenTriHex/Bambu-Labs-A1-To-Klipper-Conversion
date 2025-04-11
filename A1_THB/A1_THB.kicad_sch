@@ -2926,7 +2926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OpenA1K:1x2 Terminal Block"
+		(property "Footprint" "Libraries:CUI_TB004-508-05BE"
 			(at 171.45 120.65 0)
 			(effects
 				(font
