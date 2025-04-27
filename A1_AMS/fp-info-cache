@@ -1,4 +1,11 @@
-24761746677664210
+24772216406932179
+A1_AMS
+STM32
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65848,6 +65855,20 @@ Yellow 5381 Series LED
 0
 2
 2
+Libraries
+CUI_TB004-508-05BE
+
+
+0
+5
+5
+Libraries
+RP2040-ZERO
+
+
+0
+23
+23
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -68614,6 +68635,13 @@ CP Radial series Radial pin pitch 7.50mm  diameter 12.5mm Electrolytic Capacitor
 2
 2
 OpenA1K
+Cap63V100UF
+
+
+0
+2
+2
+OpenA1K
 Combo JST-XH & MF3 01x04
 JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
 connector JST XH vertical
@@ -68684,12 +68712,26 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W le
 2
 2
 OpenA1K
+STM32 Blackpill Socketed
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
+OpenA1K
 Socketed MCU - Pico (No Text)
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
 Through hole pin header THT 2x20 2.54mm double row
 0
 40
 40
+OpenA1K
+Socketed MCU STM32 64P
+
+
+0
+60
+60
 OpenA1K
 TMC2209 Footprint
 Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\

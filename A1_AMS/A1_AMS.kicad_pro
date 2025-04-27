@@ -116,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -129,7 +129,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.25,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -621,12 +621,20 @@
       "Root"
     ],
     [
+      "78fe43ba-1a60-47f1-9a8d-07f68d7ed940",
+      "AMotor"
+    ],
+    [
+      "7e13f382-9832-4a29-ac36-357c05631b88",
+      "BMotor"
+    ],
+    [
       "da5b7a11-adf7-487a-b63f-2d36df684954",
-      "SelectorMotor"
+      "CMotor"
     ],
     [
       "2a25a3b1-37eb-4dde-897c-41aa70453add",
-      "DriveMotor"
+      "DMotor"
     ]
   ],
   "text_variables": {}

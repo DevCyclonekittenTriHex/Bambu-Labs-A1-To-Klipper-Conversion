@@ -1419,7 +1419,7 @@
 		)
 		(uuid "8798ee61-3ca8-4712-a3f6-051f9c8cc374")
 	)
-	(hierarchical_label "EN"
+	(hierarchical_label "ENABLE"
 		(shape input)
 		(at 127 88.9 180)
 		(effects
