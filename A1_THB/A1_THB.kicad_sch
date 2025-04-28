@@ -3082,7 +3082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 26.67 126.9999 0)
 			(effects
 				(font
@@ -4318,21 +4318,19 @@
 		(fields_autoplaced yes)
 		(uuid "5e12a1fc-e3b1-410c-88ed-f633bf3f8bfa")
 		(property "Reference" "R4"
-			(at 171.4501 78.74 0)
+			(at 170.18 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 168.9101 78.74 0)
+		(property "Value" "10kΩ"
+			(at 170.18 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -5089,21 +5087,19 @@
 		(fields_autoplaced yes)
 		(uuid "e180dd2c-b694-446c-b484-d1d4964dd9a8")
 		(property "Reference" "R5"
-			(at 168.9101 100.33 0)
+			(at 167.64 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 166.3701 100.33 0)
+		(property "Value" "10kΩ"
+			(at 167.64 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
