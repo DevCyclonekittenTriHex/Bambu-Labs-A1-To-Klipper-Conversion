@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/isaac/Desktop/Bambu-Labs-A1-To-Klipper-Conversion/Kicad/A1K_CM/libraries/CM4IO/CM4IO.kicad_sym")(options "")(descr ""))
-  (lib (name "TMC2209")(type "KiCad")(uri "C:/Users/isaac/Desktop/Bambu-Labs-A1-To-Klipper-Conversion/Kicad/A1K_CM/libraries/TMC2209/TMC2209.kicad_sym")(options "")(descr ""))
-)

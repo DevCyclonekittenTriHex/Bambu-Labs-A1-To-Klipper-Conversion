@@ -1,8 +1,0 @@
-# Bill of Materials:
-
-The projects current bill of materials are still evolving (I am still obtaining items).
-
-- Skr Pico
-- Raspberry Pi 3B
-- JST XH crimping set
-- 25 metres of 22awg wire
