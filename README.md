@@ -1,14 +1,14 @@
 ## Bambu Lab A1 Klipper Conversion (In development)
 
-![Klipper Logo](/images/logo_new.png)
+![Klipper Logo](/KicadImages/KlipperLogo.png)
 
 ## Join Chaz's [**Discord Server**](https://discord.gg/W6B5mBejuC) to help.
 
 
-[!Caution]
-Doing any modifications may void your warrenty!
-[!Caution]
-This Project is in currently not finished, this conversion is done fully at your own risk, I am not liable for any damages done to your machine. 
+> [!Caution]
+> Doing any modifications may void your warrenty!
+> [!Caution]
+> This Project is in currently not finished, this conversion is done fully at your own risk, I am not liable > > for any damages done to your machine. 
 
 
 The aim of this project is to add klipper functional to the powerful Bambu Labs A1.
