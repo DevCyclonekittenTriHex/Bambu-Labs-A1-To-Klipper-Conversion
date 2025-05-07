@@ -22,21 +22,20 @@ This is constantly being updated, the docs for the conversion will be [Here!](ht
 
 # Functions that don't work:
 If you have any imformation about this, please contact me.
-❓Filament Sensor : Ribbon cable (unidentified)
-- Replace with any filament sensor.
-❓Camera Unit : (unidentified 5 pin JST connector) (pinout unknown)
-- ? Wire in to the motor board or rpi board
-❓Display : (Unidentified Ribbon cable)
-- ? Bambu Says A1m uses 4SPI.
-❔ AMS lite : Closed Source
-- Will develop open AMS lite or find one that can work with klipper (Next Project)
+
+- Filament Sensor : Ribbon cable (unidentified)
+- Camera / Light Unit : (unidentified 5 pin JST connector) (pinout unknown but probably mipi)
+- Display : (Unidentified Ribbon cable, bbl says on a1m page that its 4spi)
+- AMS lite : Closed Source (possibly openamsl, or get open source mmu) 
+
 
 # PCBing:
 I am currently working on some pcbs, the mainboard and toolhead board are nearly done but are encoutering some issues.
 
-
 # Toolhead Board 
+None Finished ATM, visit kicad projects for details
 ![A1K TH Board](none_atm)
 
 # Main Controller Board 
+None Finished ATM, visit kicad projects for details
 ![A1K MCU Board](none_atm)
