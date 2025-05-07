@@ -1,23 +1,27 @@
-# Bambu-Labs-A1-To-Klipper-Conversion (In Development):
+## Bambu Lab A1 Klipper Conversion (In development)
 
-The aim of this project is to add klipper functional to the powerful bambu labs a1.
+![Klipper Logo](/images/logo_new.png)
+
+## Join Chaz's [**Discord Server**](https://discord.gg/W6B5mBejuC) to help.
+
+
+[!Caution]
+Doing any modifications may void your warrenty!
+[!Caution]
+This Project is in currently not finished, this conversion is done fully at your own risk, I am not liable for any damages done to your machine. 
+
+
+The aim of this project is to add klipper functional to the powerful Bambu Labs A1.
 Due to the recent push for "privacy and security", people are wanting to add freedom back to their machines.
 
-To be updated once all the cables and 3d files are availiable.
+This is constantly being updated, the docs for the conversion will be [Here!](https://devcyclonekittentrihex.github.io/A1K-Documentation/Docs/)
 
 
-# Doing any Modifications here WILL void your warrenty of your bambu labs printer.
-
-# Information about what we need:
-All items here are from stock a1, attempting to use stock so its an easy upgrade.
 
 
-# Functions that work:
-✔️ Hotend Thermister and all Motors
-✔️ PC and EX Fans
-✔️
-❓ Heated bed (pinout unknown atm)
+
 # Functions that don't work:
+If you have any imformation about this, please contact me.
 ❓Filament Sensor : Ribbon cable (unidentified)
 - Replace with any filament sensor.
 ❓Camera Unit : (unidentified 5 pin JST connector) (pinout unknown)
@@ -28,15 +32,11 @@ All items here are from stock a1, attempting to use stock so its an easy upgrade
 - Will develop open AMS lite or find one that can work with klipper (Next Project)
 
 # PCBing:
-After the printer works, i will create a pcb so you dont have to splice cables.
+I am currently working on some pcbs, the mainboard and toolhead board are nearly done but are encoutering some issues.
 
-Here are some pcbs that I have designed (I HAVE NOT TESTED)
 
-# AMS Board (Designed for Pico MMU)
+# Toolhead Board 
+![A1K TH Board](none_atm)
 
-![A1K AMS Board](Images/OpenA1K_AMSBoard.png)
-# Toolhead Board (Not Functional)
-![A1K TH Board](Images/OpenA1K_THBoard.png)
-
-# Main Controller Board (Not Functional)
-![A1K MCU Board](Images/OpenA1K_MCUBoard.png)
+# Main Controller Board 
+![A1K MCU Board](none_atm)
