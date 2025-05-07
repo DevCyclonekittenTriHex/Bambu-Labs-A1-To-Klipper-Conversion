@@ -1,6 +1,7 @@
 ## Bambu Lab A1 Klipper Conversion (In development)
 
 ![Klipper Logo](/KicadImages/KlipperLogo.png)
+![Printe Imager](/KicadImages/bbl_a1.png)
 
 ## Join Chaz's [**Discord Server**](https://discord.gg/W6B5mBejuC) to help.
 
