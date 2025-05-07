@@ -8,7 +8,7 @@
 > [!Caution]
 > Doing any modifications may void your warrenty!
 > [!Caution]
-> This Project is in currently not finished, this conversion is done fully at your own risk, I am not liable > > for any damages done to your machine. 
+> This Project is in currently not finished, this conversion is done fully at your own risk, I am not liable for any damages done to your machine. 
 
 
 The aim of this project is to add klipper functional to the powerful Bambu Labs A1.
@@ -33,9 +33,9 @@ If you have any imformation about this, please contact me.
 I am currently working on some pcbs, the mainboard and toolhead board are nearly done but are encoutering some issues.
 
 # Toolhead Board 
-None Finished ATM, visit kicad projects for details
+None Finished ATM, visit kicad projects for details.
 ![A1K TH Board](none_atm)
 
 # Main Controller Board 
-None Finished ATM, visit kicad projects for details
+None Finished ATM, visit kicad projects for details.
 ![A1K MCU Board](none_atm)
