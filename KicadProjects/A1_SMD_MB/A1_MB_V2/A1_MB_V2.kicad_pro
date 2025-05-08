@@ -51,13 +51,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -122,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.24,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -185,9 +179,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,12 +206,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -462,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "A1_MB.kicad_pro",
+    "filename": "A1_MB_V2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -498,10 +485,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/isaac/Desktop/3D Printing/Klipper_Prints/Bambu-Labs-A1-To-Klipper-Conversion/KicadGerbers/A1_MB/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../A1_MB.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -571,42 +558,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -638,16 +595,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/isaac/Desktop/3D Printing/Klipper_Prints/Bambu-Labs-A1-To-Klipper-Conversion/PDFS/",
+    "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -660,40 +609,16 @@
   },
   "sheets": [
     [
-      "989d6d42-19bd-451f-8ed3-d8ee079df240",
+      "a288b6e0-7c74-4cd9-8c53-d587802da1e5",
       "Root"
     ],
     [
-      "78fe43ba-1a60-47f1-9a8d-07f68d7ed940",
-      "XMotor"
+      "dad61dce-0c7e-45e0-9345-a3ece91c1e87",
+      "STM32"
     ],
     [
-      "7e13f382-9832-4a29-ac36-357c05631b88",
-      "YMotor"
-    ],
-    [
-      "da5b7a11-adf7-487a-b63f-2d36df684954",
-      "ZMotor"
-    ],
-    [
-      "2a25a3b1-37eb-4dde-897c-41aa70453add",
-      "EMotor"
-    ],
-    [
-      "449b30dd-7932-473b-be66-5521ed3bd94d",
-      "Mosfet2"
-    ],
-    [
-      "5b449bb8-b71d-4634-aefa-c149be93b978",
-      "Mosfet1"
-    ],
-    [
-      "d0bcb683-06b6-4f24-ad94-39c20cda3fb0",
-      "Transistor1"
-    ],
-    [
-      "0bf4620d-2dd8-476a-8e56-0dcae740b79b",
-      "Mosfet3"
+      "dd78447b-7ded-4c2d-bbee-1d2f5fbfdbd7",
+      "Motors"
     ]
   ],
   "text_variables": {}

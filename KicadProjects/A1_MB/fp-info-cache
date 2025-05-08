@@ -1,4 +1,4 @@
-24777461611094603
+24782700811050392
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68684,6 +68684,13 @@ LinearRegulator
 3
 3
 OpenA1K
+MosfetModule
+
+
+0
+0
+0
+OpenA1K
 Mountinghole_m1.5
 
 
@@ -68761,12 +68768,26 @@ Pololu Breakout
 18
 18
 OpenA1K
+Untitled
+
+
+0
+0
+0
+OpenA1K
 Updated ATO Mini-Blade_2Post
 
 
 0
 2
 2
+OpenA1K
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800

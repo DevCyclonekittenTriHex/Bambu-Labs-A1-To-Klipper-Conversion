@@ -1,0 +1,250 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1b6b199b-45ef-4334-ade5-4bdcf8b886ba")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "MZ_DIAG"
+		(shape input)
+		(at 119.38 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04015813-97dc-4201-986d-b5118c6b2fe2")
+	)
+	(hierarchical_label "MZ_EN"
+		(shape input)
+		(at 119.38 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16a98807-74c7-4b9d-88e6-a7ea1631c68c")
+	)
+	(hierarchical_label "MY_EN"
+		(shape input)
+		(at 119.38 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a73bbce-76e1-47e3-b3d3-ea111c25e6ab")
+	)
+	(hierarchical_label "MS_EN"
+		(shape input)
+		(at 119.38 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d916e75-518c-4435-8b03-7f000147f055")
+	)
+	(hierarchical_label "MS_DIAG"
+		(shape input)
+		(at 119.38 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33420aeb-7e8c-4899-ba81-d4324db5d546")
+	)
+	(hierarchical_label "SPI_SDA"
+		(shape input)
+		(at 118.11 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "526f1a14-dcc3-43ac-9e3e-603aa469ff19")
+	)
+	(hierarchical_label "MY_DIAG"
+		(shape input)
+		(at 119.38 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "665cb7db-2ffc-437f-9cdd-3fb71cf2ca0d")
+	)
+	(hierarchical_label "SPI_MS"
+		(shape input)
+		(at 118.11 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d4bdbc7-f613-48cb-8a91-094f3edf698e")
+	)
+	(hierarchical_label "MS_STEP"
+		(shape input)
+		(at 119.38 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fd1e0a9-ca89-4269-8816-4f3862129dd3")
+	)
+	(hierarchical_label "SPI_MX"
+		(shape input)
+		(at 118.11 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7066ccff-b224-407e-94f7-50fa4bae3afa")
+	)
+	(hierarchical_label "MX_DIR"
+		(shape input)
+		(at 119.38 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "815964be-d75c-4227-b3ed-ee274ec9a9ed")
+	)
+	(hierarchical_label "MY_DIR"
+		(shape input)
+		(at 119.38 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8249a5f3-2a36-48b1-81c8-4d23be41f16a")
+	)
+	(hierarchical_label "MZ_DIR"
+		(shape input)
+		(at 119.38 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8580642a-bfe4-4f66-bf3c-f1da342f9a4c")
+	)
+	(hierarchical_label "SPI_MY"
+		(shape input)
+		(at 118.11 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94db14ab-4299-4d18-be68-7f83aae4ebb0")
+	)
+	(hierarchical_label "MX_EN"
+		(shape input)
+		(at 119.38 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2880c03-a59f-4887-9a57-f9f3cb67f034")
+	)
+	(hierarchical_label "SPI_MZ"
+		(shape input)
+		(at 118.11 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2a112ac-f226-432a-a0a1-9e2ac726d69b")
+	)
+	(hierarchical_label "MY_STEP"
+		(shape input)
+		(at 119.38 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a93ce58f-3824-4dd3-9400-48a0725a2e1c")
+	)
+	(hierarchical_label "MZ_STEP"
+		(shape input)
+		(at 119.38 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c33add63-608d-4517-af1e-87f15bf78b1f")
+	)
+	(hierarchical_label "MS_DIR"
+		(shape input)
+		(at 119.38 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3767a72-3923-4283-b4e3-e4dfea771ae3")
+	)
+	(hierarchical_label "MX_STEP"
+		(shape input)
+		(at 119.38 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5033e72-c80a-4b87-ab83-1d613207b2d3")
+	)
+	(hierarchical_label "SPI_SCLK"
+		(shape input)
+		(at 118.11 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb193328-1810-4cec-bd4b-97407746ce72")
+	)
+	(hierarchical_label "MX_DIAG"
+		(shape input)
+		(at 119.38 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f140b6e1-10b0-459f-a7ca-47b348621703")
+	)
+)
