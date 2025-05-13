@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cbbdf71f-230e-456f-8583-281e4dad9997")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "GPIO_28"
+		(shape input)
+		(at 132.08 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "067e7973-7856-4a8d-97cb-1ee851ad615a")
+	)
+	(hierarchical_label "GPIO5"
+		(shape input)
+		(at 132.08 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30775dbd-e0f6-409a-9416-b088e4f9f1ce")
+	)
+	(hierarchical_label "GPIO0"
+		(shape input)
+		(at 132.08 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d199cf4-116e-4dd5-a113-746c868ee131")
+	)
+	(hierarchical_label "GPIO4"
+		(shape input)
+		(at 132.08 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6caca8b3-0976-419f-b098-e2747cdb4de7")
+	)
+	(hierarchical_label "GPIO3"
+		(shape input)
+		(at 132.08 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ef83e40-a05d-412b-a773-3249d9818a4a")
+	)
+	(hierarchical_label "GPIO_27"
+		(shape input)
+		(at 132.08 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93999adb-f967-4ba0-bbc9-3ed6eb391358")
+	)
+	(hierarchical_label "GPIO2"
+		(shape input)
+		(at 132.08 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0ad5788-43b6-4c0b-8eec-e4e2cce3ee10")
+	)
+	(hierarchical_label "GPIO1"
+		(shape input)
+		(at 132.08 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2a9330a-aec6-4741-a171-4c3ea26c9903")
+	)
+)
