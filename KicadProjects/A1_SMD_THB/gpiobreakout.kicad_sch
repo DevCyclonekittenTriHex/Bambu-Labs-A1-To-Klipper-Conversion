@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "cbbdf71f-230e-456f-8583-281e4dad9997")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols)
 	(hierarchical_label "GPIO_28"
 		(shape input)
