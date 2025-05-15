@@ -166,6 +166,140 @@
 		(uuid "dac5318b-66c2-4fd0-8cfc-2c217c97428c")
 	)
 	(sheet
+		(at 48.895 86.995)
+		(size 26.67 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10688681-ddf1-416a-9d7f-debc7e4fed8e")
+		(property "Sheetname" "mosfets"
+			(at 48.895 86.2834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosfets.kicad_sch"
+			(at 48.895 102.8196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HE_SIG" input
+			(at 75.565 100.33 0)
+			(uuid "ddce78c9-5733-4de9-bac6-cac018345897")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HB_SIG" input
+			(at 75.565 97.79 0)
+			(uuid "98bb93cd-0fa9-4d56-8434-b9c766a28d22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "A1_MB_V2"
+				(path "/a288b6e0-7c74-4cd9-8c53-d587802da1e5"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.895 106.68)
+		(size 26.67 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb57eff9-aeb5-4f87-8232-8249f06766b0")
+		(property "Sheetname" "fpc"
+			(at 48.895 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpc.kicad_sch"
+			(at 48.895 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "THM2" input
+			(at 75.565 114.3 0)
+			(uuid "4d63955e-448c-413e-aa1f-2060a024dd0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "THM1" input
+			(at 75.565 111.76 0)
+			(uuid "23601c9a-485e-43d9-86d9-555a1b3eceee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HB_CT" input
+			(at 75.565 109.22 0)
+			(uuid "535730e0-5078-4908-bfda-8e882686818a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "A1_MB_V2"
+				(path "/a288b6e0-7c74-4cd9-8c53-d587802da1e5"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 97.155 40.005)
 		(size 41.275 137.795)
 		(exclude_from_sim no)
@@ -487,8 +621,8 @@
 		)
 	)
 	(sheet
-		(at 48.26 130.81)
-		(size 26.67 46.99)
+		(at 48.26 122.555)
+		(size 26.67 55.245)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -503,7 +637,7 @@
 		)
 		(uuid "dd78447b-7ded-4c2d-bbee-1d2f5fbfdbd7")
 		(property "Sheetname" "Motors"
-			(at 48.26 130.0984 0)
+			(at 48.26 121.8434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,6 +807,16 @@
 		(pin "MZ_STEP" input
 			(at 74.93 158.75 0)
 			(uuid "0928b09c-1eec-4947-b604-39e2bd32843f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART" input
+			(at 74.93 129.54 0)
+			(uuid "8b5cfa6a-c793-4725-a167-2cfcab03f1e7")
 			(effects
 				(font
 					(size 1.27 1.27)

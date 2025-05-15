@@ -2464,6 +2464,86 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "WILL DO YOURSELF"
+		(exclude_from_sim no)
+		(at 83.82 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a817d88-a0a4-4e08-958f-50a07976971c")
+	)
+	(text "WILL DO YOURSELF"
+		(exclude_from_sim no)
+		(at 129.54 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a662601-f53f-40b1-90bb-83cad1d221a7")
+	)
+	(text "WILL DO YOURSELF"
+		(exclude_from_sim no)
+		(at 77.724 103.886 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b33a877-f2b0-4c5a-8253-eda0d68c2d75")
+	)
+	(text "WILL DO YOURSELF"
+		(exclude_from_sim no)
+		(at 166.624 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "508f9d9a-1ce8-4dab-8328-79226d848500")
+	)
+	(text "WILL DO YOURSELF"
+		(exclude_from_sim no)
+		(at 93.726 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64d2bb61-ffda-4271-90e1-597b4f4c8f93")
+	)
+	(text "WILL DO YOURSELF"
+		(exclude_from_sim no)
+		(at 186.436 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ac0ec8f-7cb6-4a5e-8301-4e0464d8186b")
+	)
+	(text "WILL DO YOURSELF"
+		(exclude_from_sim no)
+		(at 76.962 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2c85fd1-2005-4458-9c9e-adaf75914d16")
+	)
+	(text "WILL DO YOURSELF"
+		(exclude_from_sim no)
+		(at 21.59 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c822747b-b762-4829-ad52-40a31c8ae23e")
+	)
 	(junction
 		(at 111.76 76.2)
 		(diameter 0)
@@ -2578,6 +2658,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 85.09) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0670a563-c3d1-4d53-9c3d-d4e2876392c4")
+	)
+	(wire
+		(pts
 			(xy 123.19 78.74) (xy 123.19 76.2)
 		)
 		(stroke
@@ -2628,6 +2718,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 85.09) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164535f4-30ae-4ce4-8a5e-cda189a9848e")
+	)
+	(wire
+		(pts
 			(xy 87.63 41.91) (xy 92.71 41.91)
 		)
 		(stroke
@@ -2648,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 88.9) (xy 104.14 88.9)
+			(xy 102.87 85.09) (xy 104.14 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3246,6 +3346,16 @@
 		)
 		(uuid "fbaead1e-74cf-4013-b226-ca49e8d546bd")
 	)
+	(label "HE_SIG"
+		(at 102.87 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f06ebad-06c2-4144-958e-0c5571577901")
+	)
 	(hierarchical_label "SPARE_FAN_PWM"
 		(shape input)
 		(at 167.64 52.07 180)
@@ -3515,10 +3625,10 @@
 		(at 170.18 26.67 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1bb33c40-d12a-45f2-a276-8e698141e062")
 		(property "Reference" "J14"
@@ -3537,7 +3647,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 170.18 26.67 0)
 			(effects
 				(font
@@ -3591,7 +3701,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4001,10 +4111,10 @@
 		(lib_id "Device:R")
 		(at 123.19 91.44 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "331f53b7-e1f6-42e3-882f-2431a21af9a0")
 		(property "Reference" "R19"
@@ -4016,7 +4126,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20kR"
 			(at 125.73 92.7099 0)
 			(effects
 				(font
@@ -4025,7 +4135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 121.412 91.44 90)
 			(effects
 				(font
@@ -4093,7 +4203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 31.75 100.838 90)
 			(effects
 				(font
@@ -4276,7 +4386,7 @@
 		(at 77.47 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4299,7 +4409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -4368,7 +4478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "A1_SMD_THB:sot23f"
 			(at 114.3 86.36 0)
 			(effects
 				(font
@@ -4466,7 +4576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 41.91 52.578 90)
 			(effects
 				(font
@@ -4600,7 +4710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.35 53.848 90)
 			(effects
 				(font
@@ -4646,10 +4756,10 @@
 		(lib_id "Device:LED")
 		(at 123.19 82.55 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4cacc000-4b13-4b72-a16a-5a20b728f861")
 		(property "Reference" "D1"
@@ -4811,7 +4921,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.52 53.848 90)
 			(effects
 				(font
@@ -5010,7 +5120,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 97.028 90)
 			(effects
 				(font
@@ -5263,7 +5373,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5284,7 +5394,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 132.08 26.67 0)
 			(effects
 				(font
@@ -5403,7 +5513,7 @@
 		(at 180.34 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5426,7 +5536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 180.34 92.71 0)
 			(effects
 				(font
@@ -5476,7 +5586,7 @@
 		(at 180.34 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5499,7 +5609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 180.34 82.55 0)
 			(effects
 				(font
@@ -5547,7 +5657,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5568,7 +5678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 95.25 26.67 0)
 			(effects
 				(font
@@ -5647,7 +5757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 33.782 40.64 90)
 			(effects
 				(font
@@ -5851,7 +5961,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.35 43.688 90)
 			(effects
 				(font
@@ -5985,7 +6095,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 31.75 122.428 90)
 			(effects
 				(font
@@ -6119,7 +6229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 52.578 90)
 			(effects
 				(font
@@ -6261,7 +6371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 41.91 100.838 90)
 			(effects
 				(font
@@ -6439,10 +6549,10 @@
 		(lib_id "Device:R")
 		(at 46.99 95.25 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bb442a8c-3ebe-4aea-888d-c4cdcee65858")
 		(property "Reference" "R29"
@@ -6509,10 +6619,10 @@
 		(lib_id "Device:D_Schottky_Dual_CommonAnode_AKK_Split")
 		(at 186.69 26.67 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "be5d0360-10a4-4e7e-a85f-50909db7d92e")
 		(property "Reference" "D3"
@@ -6670,7 +6780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.52 43.688 90)
 			(effects
 				(font
@@ -6782,10 +6892,10 @@
 		(lib_id "Device:R")
 		(at 171.45 41.91 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c7026912-bcac-4b5a-827f-f7ee1b3eea2d")
 		(property "Reference" "R23"
@@ -6804,7 +6914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 171.45 43.688 90)
 			(effects
 				(font
@@ -6852,7 +6962,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6991,10 +7101,10 @@
 		(lib_id "Device:R")
 		(at 171.45 52.07 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ce752148-67c2-4d7d-93b9-55c281b85bb9")
 		(property "Reference" "R24"
@@ -7013,7 +7123,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 171.45 53.848 90)
 			(effects
 				(font
@@ -7059,10 +7169,10 @@
 		(lib_id "Device:R")
 		(at 46.99 116.84 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d4688c5a-db65-4389-bdeb-478818668772")
 		(property "Reference" "R30"
@@ -7111,10 +7221,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ab017f6-c7e3-4aa7-a237-fd7f7640876a")
+			(uuid "9ab017f6-c7e3-4aa7-a237-fd7f7640876b")
 		)
 		(pin "2"
-			(uuid "9c2020a6-ccfb-4653-b08a-7f7646a44f97")
+			(uuid "9c2020a6-ccfb-4653-b08a-7f7646a44f98")
 		)
 		(instances
 			(project "A1_SMD_THB"
@@ -7130,7 +7240,7 @@
 		(at 74.93 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7153,7 +7263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 74.93 118.11 0)
 			(effects
 				(font
@@ -7223,7 +7333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 41.91 122.428 90)
 			(effects
 				(font
@@ -7423,7 +7533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 90.678 90)
 			(effects
 				(font

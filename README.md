@@ -39,3 +39,9 @@ None Finished ATM, visit kicad projects for details.
 # Main Controller Board 
 None Finished ATM, visit kicad projects for details.
 ![A1K MCU Board](none_atm)
+
+# Current Progress
+This is me making the printer go zoomies,
+1k velocity
+11k accel
+![Racing](A1K/Racing.mp4)

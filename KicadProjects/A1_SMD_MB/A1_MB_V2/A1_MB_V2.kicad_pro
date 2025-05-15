@@ -619,6 +619,30 @@
     [
       "dd78447b-7ded-4c2d-bbee-1d2f5fbfdbd7",
       "Motors"
+    ],
+    [
+      "ae25ca9c-e188-461c-a8c7-a17366313703",
+      "motor"
+    ],
+    [
+      "3a6d9d2f-6d86-4c02-926c-caecdeba66a7",
+      "motor1"
+    ],
+    [
+      "f879b349-fe26-4741-a81d-25c5a076731a",
+      "motor2"
+    ],
+    [
+      "5141b62d-8882-405c-a41a-a3ce5991fd31",
+      "motor3"
+    ],
+    [
+      "bb57eff9-aeb5-4f87-8232-8249f06766b0",
+      "fpc"
+    ],
+    [
+      "10688681-ddf1-416a-9d7f-debc7e4fed8e",
+      "mosfets"
     ]
   ],
   "text_variables": {}
