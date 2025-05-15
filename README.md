@@ -44,4 +44,4 @@ None Finished ATM, visit kicad projects for details.
 This is me making the printer go zoomies,
 1k velocity
 11k accel
-![Racing](https://youtu.be/xo9yX1xrFeY)
+https://youtu.be/xo9yX1xrFeY
