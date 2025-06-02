@@ -1230,6 +1230,58 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Differential Pair"
+		(exclude_from_sim no)
+		(at 82.042 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f154bb6-5dc8-486a-916d-bf29774c9b1b")
+	)
+	(text "Might add some caps, but might be on mainboard side"
+		(exclude_from_sim no)
+		(at 67.818 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32dccfde-76a4-4080-abc3-6171199e578a")
+	)
+	(text "DOES NOT USE STANDARD USB PINOUT"
+		(exclude_from_sim no)
+		(at 85.344 19.558 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "989f8f26-b3b9-438a-9bf8-804edc6356ee")
+	)
+	(text "Original USB VBUS"
+		(exclude_from_sim no)
+		(at 75.184 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b2bbc3ca-8f00-4331-91f9-24c315d93a46")
+	)
+	(text "Actual Voltage"
+		(exclude_from_sim no)
+		(at 73.152 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "faccb8f2-a21c-406e-bc4f-aa7361a6efe8")
+	)
 	(junction
 		(at 64.77 90.17)
 		(diameter 0)
@@ -1436,7 +1488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "127fb61d-bf03-4089-98d6-1829debd875d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0168"
 			(at 41.91 111.76 0)
 			(effects
 				(font
@@ -1486,7 +1538,7 @@
 		(instances
 			(project "A1_SMD_THB"
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/85a00ac2-5790-47c0-90dd-4eac1528d388"
-					(reference "#PWR01")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -1502,7 +1554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73474271-ff0f-4806-8b63-f328b1d30256")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0170"
 			(at 64.77 40.64 0)
 			(effects
 				(font
@@ -1552,7 +1604,7 @@
 		(instances
 			(project "A1_SMD_THB"
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/85a00ac2-5790-47c0-90dd-4eac1528d388"
-					(reference "#PWR03")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -1568,7 +1620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7922d146-cd97-457e-94e1-350b5768f38c")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0169"
 			(at 49.53 111.76 0)
 			(effects
 				(font
@@ -1618,7 +1670,7 @@
 		(instances
 			(project "A1_SMD_THB"
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/85a00ac2-5790-47c0-90dd-4eac1528d388"
-					(reference "#PWR02")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -1634,7 +1686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9152ae70-048d-441f-89f6-0a4706a4449c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0171"
 			(at 67.31 68.58 0)
 			(effects
 				(font
@@ -1684,7 +1736,7 @@
 		(instances
 			(project ""
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/85a00ac2-5790-47c0-90dd-4eac1528d388"
-					(reference "#PWR037")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -1700,7 +1752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da1dcf4e-c6d8-47c9-80a2-be5200c9138b")
-		(property "Reference" "P1"
+		(property "Reference" "P101"
 			(at 49.53 31.75 0)
 			(effects
 				(font
@@ -1815,7 +1867,7 @@
 		(instances
 			(project "A1_SMD_THB"
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/85a00ac2-5790-47c0-90dd-4eac1528d388"
-					(reference "P1")
+					(reference "P101")
 					(unit 1)
 				)
 			)

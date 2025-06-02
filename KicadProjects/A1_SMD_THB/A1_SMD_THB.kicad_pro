@@ -510,7 +510,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 100,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -636,7 +636,7 @@
       "Root"
     ],
     [
-      "39133467-43bc-4492-b4f0-6de52d085be2",
+      "329852fe-3096-4191-abc2-bf5f7b2610e8",
       "mcu"
     ],
     [
@@ -658,6 +658,10 @@
     [
       "bfee38be-059f-4fa1-9d25-43f895f70fb8",
       "gpiobreakout"
+    ],
+    [
+      "eae1d4e0-f04f-4469-be6a-8f6fa9eab506",
+      "mcu_stm32"
     ]
   ],
   "text_variables": {}

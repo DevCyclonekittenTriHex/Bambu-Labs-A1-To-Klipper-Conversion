@@ -5,6 +5,16 @@
 	(uuid "cbbdf71f-230e-456f-8583-281e4dad9997")
 	(paper "A5")
 	(lib_symbols)
+	(text "Just the spare gpio pins that aren't being used, might be excluded"
+		(exclude_from_sim no)
+		(at 111.76 63.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b02e8b0-5eaf-4ffb-a615-ac16c7b62099")
+	)
 	(hierarchical_label "GPIO_28"
 		(shape input)
 		(at 132.08 69.85 0)

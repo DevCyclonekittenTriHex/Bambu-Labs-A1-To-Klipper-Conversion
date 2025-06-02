@@ -414,6 +414,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016)
@@ -1116,6 +1258,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 82.55) (xy 120.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292e8205-6a1c-4e01-9f6f-19a14bdfe520")
+	)
+	(wire
+		(pts
 			(xy 111.76 69.85) (xy 116.84 69.85)
 		)
 		(stroke
@@ -1133,6 +1285,16 @@
 			(type default)
 		)
 		(uuid "3deb244d-4d89-418c-8ba3-88e4a0216d60")
+	)
+	(wire
+		(pts
+			(xy 111.76 74.93) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecf7eec-77f5-422b-82f9-2b1893549e5b")
 	)
 	(wire
 		(pts
@@ -1226,6 +1388,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 74.93) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dff0c3-ab95-4f8a-939a-66be5a5f925d")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 120.65 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a671300d-3762-488e-a7be-377116009d33")
+	)
+	(wire
+		(pts
 			(xy 121.92 66.04) (xy 121.92 67.31)
 		)
 		(stroke
@@ -1256,6 +1438,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 77.47) (xy 111.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2464fd1-b581-451e-950f-b8b555eeb78e")
+	)
+	(wire
+		(pts
 			(xy 80.01 74.93) (xy 93.98 74.93)
 		)
 		(stroke
@@ -1264,16 +1456,27 @@
 		)
 		(uuid "f84fc5d1-d773-4e89-9a13-8f4feda9e552")
 	)
-	(hierarchical_label "THM2"
+	(hierarchical_label "THM1"
 		(shape input)
-		(at 111.76 74.93 0)
+		(at 120.65 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "23a14f3e-1793-465b-9176-f4485d2958ee")
+		(uuid "2ed3124b-726c-4568-a6fa-ce800e4018b5")
+	)
+	(hierarchical_label "THM2"
+		(shape input)
+		(at 120.65 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32859679-a579-438d-b768-c3727e8a79e0")
 	)
 	(hierarchical_label "HB_CT"
 		(shape input)
@@ -1285,17 +1488,6 @@
 			(justify left)
 		)
 		(uuid "3a3a4c9b-6b08-459e-b0a2-1ba1ae2ea6d4")
-	)
-	(hierarchical_label "THM1"
-		(shape input)
-		(at 111.76 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5df805a2-ade1-4b56-9eee-45159581f6a5")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
@@ -1322,7 +1514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 106.68 67.31 0)
 			(effects
 				(font
@@ -1377,6 +1569,76 @@
 			(project ""
 				(path "/a288b6e0-7c74-4cd9-8c53-d587802da1e5/bb57eff9-aeb5-4f87-8232-8249f06766b0"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 125.73 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "561efccd-88a8-4a61-8d4e-1c3974fb4536")
+		(property "Reference" "J14"
+			(at 128.27 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THM1JMP"
+			(at 128.27 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f402db6-e29d-445e-91dc-8ae7525da25e")
+		)
+		(pin "2"
+			(uuid "33f88cb8-7f7e-48de-aff0-2c5ba53e0ea4")
+		)
+		(instances
+			(project "A1_MB_V2"
+				(path "/a288b6e0-7c74-4cd9-8c53-d587802da1e5/bb57eff9-aeb5-4f87-8232-8249f06766b0"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -1515,6 +1777,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 125.73 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "726ae64e-da86-406e-8dc1-9279bc770531")
+		(property "Reference" "J13"
+			(at 128.27 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "THM2JMP"
+			(at 128.27 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dea0a4ee-8a4d-4e5d-992d-63cfe93b8904")
+		)
+		(pin "2"
+			(uuid "f5b1d763-0d01-4495-80ea-aa89e9e3d201")
+		)
+		(instances
+			(project ""
+				(path "/a288b6e0-7c74-4cd9-8c53-d587802da1e5/bb57eff9-aeb5-4f87-8232-8249f06766b0"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 121.92 59.69 0)
 		(unit 1)
@@ -1608,7 +1940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 99.06 67.31 0)
 			(effects
 				(font

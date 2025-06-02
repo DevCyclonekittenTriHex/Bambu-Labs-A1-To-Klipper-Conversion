@@ -264,7 +264,7 @@
 	)
 	(text "XMOTOR"
 		(exclude_from_sim no)
-		(at 50.165 43.688 0)
+		(at 50.8 42.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -274,7 +274,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 55.88) (xy 58.42 55.88)
+			(xy 56.515 54.61) (xy 59.055 54.61)
 		)
 		(stroke
 			(width 0)
@@ -314,7 +314,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 53.34) (xy 62.23 53.34)
+			(xy 56.515 52.07) (xy 62.865 52.07)
 		)
 		(stroke
 			(width 0)
@@ -365,7 +365,7 @@
 	)
 	(hierarchical_label "UART"
 		(shape input)
-		(at 55.88 50.8 0)
+		(at 56.515 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -475,7 +475,7 @@
 	)
 	(hierarchical_label "MX_DIR"
 		(shape input)
-		(at 42.545 55.88 180)
+		(at 43.18 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -508,7 +508,7 @@
 	)
 	(hierarchical_label "MX_EN"
 		(shape input)
-		(at 42.545 50.8 180)
+		(at 43.18 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -552,7 +552,7 @@
 	)
 	(hierarchical_label "MX_STEP"
 		(shape input)
-		(at 42.545 53.34 180)
+		(at 43.18 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -563,7 +563,7 @@
 	)
 	(hierarchical_label "MX_DIAG"
 		(shape input)
-		(at 42.545 58.42 180)
+		(at 43.18 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -970,7 +970,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 55.88 0)
+		(at 59.055 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -979,7 +979,7 @@
 		(fields_autoplaced yes)
 		(uuid "ded6dcf2-4ae9-4b49-b89f-668b913197f9")
 		(property "Reference" "#PWR019"
-			(at 58.42 62.23 0)
+			(at 59.055 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +988,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 60.96 0)
+			(at 59.055 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,7 +996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 55.88 0)
+			(at 59.055 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1005,7 +1005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 55.88 0)
+			(at 59.055 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +1014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 55.88 0)
+			(at 59.055 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1036,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 53.34 0)
+		(at 62.865 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1045,7 +1045,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb3a100d-c429-4b9b-b16e-acb7c547da7a")
 		(property "Reference" "#PWR020"
-			(at 62.23 59.69 0)
+			(at 62.865 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,7 +1054,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 58.42 0)
+			(at 62.865 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 53.34 0)
+			(at 62.865 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 53.34 0)
+			(at 62.865 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1080,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 53.34 0)
+			(at 62.865 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1323,7 @@
 		)
 	)
 	(sheet
-		(at 42.545 48.26)
+		(at 43.18 46.99)
 		(size 13.335 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1338,7 +1338,7 @@
 		)
 		(uuid "ae25ca9c-e188-461c-a8c7-a17366313703")
 		(property "Sheetname" "motor"
-			(at 42.545 47.5484 0)
+			(at 43.18 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1347,7 @@
 			)
 		)
 		(property "Sheetfile" "motor.kicad_sch"
-			(at 41.656 63.754 0)
+			(at 42.291 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1356,7 @@
 			)
 		)
 		(pin "DIAG" input
-			(at 42.545 58.42 180)
+			(at 43.18 57.15 180)
 			(uuid "91d43774-406e-437c-bfd8-14b804a2518a")
 			(effects
 				(font
@@ -1366,7 +1366,7 @@
 			)
 		)
 		(pin "UART" input
-			(at 55.88 50.8 0)
+			(at 56.515 49.53 0)
 			(uuid "364c721f-2630-428a-8f03-b80804faec44")
 			(effects
 				(font
@@ -1376,7 +1376,7 @@
 			)
 		)
 		(pin "STEP" input
-			(at 42.545 53.34 180)
+			(at 43.18 52.07 180)
 			(uuid "33af6d0c-f434-4072-ba9f-2f2aa4de0590")
 			(effects
 				(font
@@ -1386,7 +1386,7 @@
 			)
 		)
 		(pin "DIR" input
-			(at 42.545 55.88 180)
+			(at 43.18 54.61 180)
 			(uuid "235e3881-6082-4d15-a62c-531d05cd45f1")
 			(effects
 				(font
@@ -1396,7 +1396,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 42.545 50.8 180)
+			(at 43.18 49.53 180)
 			(uuid "4fedc247-6635-4f24-a13b-4767038676b8")
 			(effects
 				(font
@@ -1406,7 +1406,7 @@
 			)
 		)
 		(pin "MS1" input
-			(at 55.88 53.34 0)
+			(at 56.515 52.07 0)
 			(uuid "8db63649-2683-4b1f-9dbd-93c12de0cf65")
 			(effects
 				(font
@@ -1416,7 +1416,7 @@
 			)
 		)
 		(pin "MS2" input
-			(at 55.88 55.88 0)
+			(at 56.515 54.61 0)
 			(uuid "c03735df-c442-4365-b948-9daf69924559")
 			(effects
 				(font
