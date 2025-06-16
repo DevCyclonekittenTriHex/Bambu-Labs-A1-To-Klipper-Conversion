@@ -462,7 +462,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "A1_MB_V2.kicad_pro",
+    "filename": "A1_SMD_MB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -738,48 +738,68 @@
       "STM32"
     ],
     [
-      "dd78447b-7ded-4c2d-bbee-1d2f5fbfdbd7",
+      "a00a7ee4-471c-4552-bc8c-cbcb57c96fdf",
       "Motors"
-    ],
-    [
-      "ae25ca9c-e188-461c-a8c7-a17366313703",
-      "motor"
-    ],
-    [
-      "3a6d9d2f-6d86-4c02-926c-caecdeba66a7",
-      "motor1"
-    ],
-    [
-      "f879b349-fe26-4741-a81d-25c5a076731a",
-      "motor2"
     ],
     [
       "5141b62d-8882-405c-a41a-a3ce5991fd31",
       "motor3"
     ],
     [
-      "bb57eff9-aeb5-4f87-8232-8249f06766b0",
+      "3a6d9d2f-6d86-4c02-926c-caecdeba66a7",
+      "motor1"
+    ],
+    [
+      "ae25ca9c-e188-461c-a8c7-a17366313703",
+      "motor"
+    ],
+    [
+      "f879b349-fe26-4741-a81d-25c5a076731a",
+      "motor2"
+    ],
+    [
+      "904ae54b-5786-47e6-9eb2-c3b704383801",
       "fpc"
     ],
     [
-      "10688681-ddf1-416a-9d7f-debc7e4fed8e",
+      "f36bb712-cbb8-477f-bcce-ac4f531d8c54",
       "stuff"
     ],
     [
-      "5922d026-83cd-42bf-956e-49e4196e4ce9",
-      "mcu"
-    ],
-    [
-      "ae9b597e-f8a9-4e41-b480-6496880d0629",
-      "usbc"
-    ],
-    [
-      "e845d826-7c2d-4023-ba0e-27a1edf0412f",
+      "a68aa3b6-5c71-4234-b6ef-cd83ec75fe4e",
       "power"
     ],
     [
-      "730a68ce-1d14-4046-bbad-b8e7e54880f7",
+      "aacd0382-e1f8-413b-8d04-188190fbb7e1",
       "spare"
+    ],
+    [
+      "76e2f7e6-53e2-44a4-83c5-ae92990d36c3",
+      "usbc"
+    ],
+    [
+      "55a65d08-43ee-456e-9750-5e9df50d0c33",
+      "Motors1"
+    ],
+    [
+      "3a6d9d2f-6d86-4c02-926c-caecdeba66a7",
+      "motor1"
+    ],
+    [
+      "ae25ca9c-e188-461c-a8c7-a17366313703",
+      "motor"
+    ],
+    [
+      "5141b62d-8882-405c-a41a-a3ce5991fd31",
+      "motor3"
+    ],
+    [
+      "f879b349-fe26-4741-a81d-25c5a076731a",
+      "motor2"
+    ],
+    [
+      "e0d86a4f-3cb1-4133-9a3e-a1a5b106f425",
+      "mcu_stm32"
     ]
   ],
   "text_variables": {}

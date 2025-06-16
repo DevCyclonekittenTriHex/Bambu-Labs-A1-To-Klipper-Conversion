@@ -477,11 +477,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e795f61f-c6a6-4cd1-b4df-d074b4ded5cb")
+			(uuid "fdbeecef-d0ca-40e4-9b8d-ce663bdb1ccf")
 		)
 		(instances
-			(project ""
-				(path "/a288b6e0-7c74-4cd9-8c53-d587802da1e5/e845d826-7c2d-4023-ba0e-27a1edf0412f"
+			(project "A1_SMD_MB"
+				(path "/a288b6e0-7c74-4cd9-8c53-d587802da1e5/a68aa3b6-5c71-4234-b6ef-cd83ec75fe4e"
 					(reference "#PWR0133")
 					(unit 1)
 				)
@@ -543,14 +543,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "17fead3e-38da-498d-bc9b-b24cf44cba4c")
+			(uuid "855269ad-9af2-406d-90fd-9f61faa3f24c")
 		)
 		(pin "1"
-			(uuid "bae9cfea-2fd2-405b-b921-01826f043676")
+			(uuid "8ab7d2e5-6b2c-4fb4-985e-8835e7d37394")
 		)
 		(instances
-			(project ""
-				(path "/a288b6e0-7c74-4cd9-8c53-d587802da1e5/e845d826-7c2d-4023-ba0e-27a1edf0412f"
+			(project "A1_SMD_MB"
+				(path "/a288b6e0-7c74-4cd9-8c53-d587802da1e5/a68aa3b6-5c71-4234-b6ef-cd83ec75fe4e"
 					(reference "J23")
 					(unit 1)
 				)
@@ -612,11 +612,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c192f086-1115-40c1-b2d9-b86d36adc2d1")
+			(uuid "27d32a27-0ae3-489e-959d-a397845bb4ce")
 		)
 		(instances
-			(project ""
-				(path "/a288b6e0-7c74-4cd9-8c53-d587802da1e5/e845d826-7c2d-4023-ba0e-27a1edf0412f"
+			(project "A1_SMD_MB"
+				(path "/a288b6e0-7c74-4cd9-8c53-d587802da1e5/a68aa3b6-5c71-4234-b6ef-cd83ec75fe4e"
 					(reference "#PWR0132")
 					(unit 1)
 				)
