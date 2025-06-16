@@ -1488,7 +1488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "127fb61d-bf03-4089-98d6-1829debd875d")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0171"
 			(at 41.91 111.76 0)
 			(effects
 				(font
@@ -1538,7 +1538,7 @@
 		(instances
 			(project "A1_SMD_THB"
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/85a00ac2-5790-47c0-90dd-4eac1528d388"
-					(reference "#PWR0168")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -1554,7 +1554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73474271-ff0f-4806-8b63-f328b1d30256")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0173"
 			(at 64.77 40.64 0)
 			(effects
 				(font
@@ -1604,7 +1604,7 @@
 		(instances
 			(project "A1_SMD_THB"
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/85a00ac2-5790-47c0-90dd-4eac1528d388"
-					(reference "#PWR0170")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -1620,7 +1620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7922d146-cd97-457e-94e1-350b5768f38c")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0172"
 			(at 49.53 111.76 0)
 			(effects
 				(font
@@ -1670,7 +1670,7 @@
 		(instances
 			(project "A1_SMD_THB"
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/85a00ac2-5790-47c0-90dd-4eac1528d388"
-					(reference "#PWR0169")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -1686,7 +1686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9152ae70-048d-441f-89f6-0a4706a4449c")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0174"
 			(at 67.31 68.58 0)
 			(effects
 				(font
@@ -1736,7 +1736,7 @@
 		(instances
 			(project ""
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/85a00ac2-5790-47c0-90dd-4eac1528d388"
-					(reference "#PWR0171")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)

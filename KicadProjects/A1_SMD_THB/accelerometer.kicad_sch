@@ -494,7 +494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1382365d-f1e4-4b31-967c-0ac7c01905c9")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0170"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -544,7 +544,7 @@
 		(instances
 			(project ""
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/d136f52e-2f1b-437a-aa44-c69ff8c5465b"
-					(reference "#PWR0167")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -560,7 +560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a4844f1-7cc7-467f-8df9-65131c2090cf")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0169"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -610,7 +610,7 @@
 		(instances
 			(project ""
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/d136f52e-2f1b-437a-aa44-c69ff8c5465b"
-					(reference "#PWR0166")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -627,7 +627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e15afa1-8f4a-4f5c-90d3-a7ec7c32b48a")
-		(property "Reference" "J113"
+		(property "Reference" "J111"
 			(at 77.47 64.77 0)
 			(effects
 				(font
@@ -643,7 +643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 77.47 73.66 0)
 			(effects
 				(font
@@ -685,7 +685,7 @@
 		(instances
 			(project ""
 				(path "/34183abe-6288-4424-a0b3-d63b1476ac75/d136f52e-2f1b-437a-aa44-c69ff8c5465b"
-					(reference "J113")
+					(reference "J111")
 					(unit 1)
 				)
 			)

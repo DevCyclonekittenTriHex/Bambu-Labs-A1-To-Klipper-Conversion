@@ -122,7 +122,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.05,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -656,12 +656,8 @@
       "power"
     ],
     [
-      "bfee38be-059f-4fa1-9d25-43f895f70fb8",
-      "gpiobreakout"
-    ],
-    [
-      "eae1d4e0-f04f-4469-be6a-8f6fa9eab506",
-      "mcu_stm32"
+      "9f8a1df0-8cbe-4e54-aa7f-376ef6649db0",
+      "mcu_stm32_smol"
     ]
   ],
   "text_variables": {}
