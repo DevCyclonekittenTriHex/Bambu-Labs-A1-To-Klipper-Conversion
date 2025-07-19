@@ -18,9 +18,12 @@ If you have any imformation about this, please contact me.
 - Filament Sensor : Its a ribbon cable with a linear hall sensor (detects magnets and is analoge)
 - Display : (Unidentified Ribbon cable, bbl says on a1m page that its 4spi)
 - AMS lite : Closed Source (possibly openamsl, or get open source mmu) 
-
+- Heated Bed : I am unable to get a solid state relay currently, but it is really easy to do.
+- Solid state relay board, it is controlled by a ribbon cable by 8, idk pinout.
+- 
 # PCBing:
-I am currently working on some pcbs, the mainboard and toolhead board are nearly done but are encoutering some issues.
+I am currently working on some pcbs, the mainboard and toolhead board are nearly done but are encoutering some issues in development.
+I will purchase through jlcpcb, the toolhead board price for 2 boards is around 60 aud without shipping.
 
 # Current Progress
 This is my 2nd print (voron cube first), the part cooling fan wasn't working in it and there was a layer shift.
