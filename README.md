@@ -28,3 +28,6 @@ I will purchase through jlcpcb, the toolhead board price for 2 boards is around 
 # Current Progress
 This is my 2nd print (voron cube first), the part cooling fan wasn't working in it and there was a layer shift.
 https://youtu.be/fLf-GMceLxE
+
+# EDIT, SKR PICO KILLED (20/07/2025)
+I am stupid and somehow killed my skr pico, this is probs gonna add a 2 week delay. 
