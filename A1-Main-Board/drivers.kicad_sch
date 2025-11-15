@@ -1,0 +1,461 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7ca83227-5b47-4bf2-a42c-9524469ae151")
+	(paper "A5")
+	(lib_symbols)
+	(rectangle
+		(start 26.67 26.67)
+		(end 71.12 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38fb9329-4c78-4a4a-acb4-0b2bd12a48fc)
+	)
+	(hierarchical_label "MA_ENABLE"
+		(shape input)
+		(at 52.07 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b5c47f3-878f-4798-bbe1-c934354097e8")
+	)
+	(hierarchical_label "MB_DIAG"
+		(shape input)
+		(at 52.07 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "103de6cd-e4a6-4a95-8610-ae36dbaa059b")
+	)
+	(hierarchical_label "MC_DIR"
+		(shape input)
+		(at 52.07 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15d326d6-4ba7-419d-99c9-01f28d155f14")
+	)
+	(hierarchical_label "MA_STEP"
+		(shape input)
+		(at 52.07 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24df1ede-62de-4317-87ab-4525b84507a0")
+	)
+	(hierarchical_label "MC_STEP"
+		(shape input)
+		(at 52.07 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3aff46f0-0825-4d44-98a8-745886f1fbc9")
+	)
+	(hierarchical_label "MC_DIAG"
+		(shape input)
+		(at 52.07 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d419be1-7667-4b4e-815e-6231cd3b3e1f")
+	)
+	(hierarchical_label "MA_DIAG"
+		(shape input)
+		(at 52.07 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77acd8c6-acfd-41a8-af3f-152a0ff2efa3")
+	)
+	(hierarchical_label "MA_DIR"
+		(shape input)
+		(at 52.07 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9669961f-01df-4a32-a844-9a2e0bb40bdc")
+	)
+	(hierarchical_label "MB_DIR"
+		(shape input)
+		(at 52.07 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af622c65-4523-41bf-8ba1-4e982dbbad4d")
+	)
+	(hierarchical_label "MC_UART"
+		(shape input)
+		(at 52.07 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbf4fa2a-ce87-47e0-97bc-5335db66f293")
+	)
+	(hierarchical_label "MC_ENABLE"
+		(shape input)
+		(at 52.07 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc6eedfb-aef5-4d3c-ad1f-fad716bb81f3")
+	)
+	(hierarchical_label "MB_STEP"
+		(shape input)
+		(at 52.07 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2441431-6dbc-4b82-ac27-b4139a6b2208")
+	)
+	(hierarchical_label "MB_ENABLE"
+		(shape input)
+		(at 52.07 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e761bd60-2d7e-40d2-a797-f285e7338aea")
+	)
+	(hierarchical_label "MA_UART"
+		(shape input)
+		(at 52.07 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1bc6f7f-d984-4bb6-af58-5996d92cbfa3")
+	)
+	(hierarchical_label "MB_UART"
+		(shape input)
+		(at 52.07 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbf3da71-ddef-4aeb-9e41-e3b1f8d3d4ec")
+	)
+	(sheet
+		(at 39.37 86.36)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "870b9616-0713-440f-86ea-848a0e7cfb1d")
+		(property "Sheetname" "stepstick2"
+			(at 39.37 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stepstick.kicad_sch"
+			(at 39.37 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "STEP" input
+			(at 52.07 88.9 0)
+			(uuid "72f75f25-2e93-4e60-a01c-d9469ce18e46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART" input
+			(at 52.07 100.33 0)
+			(uuid "e5c3c199-e83a-4131-b85e-7447ae2f1126")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 52.07 91.44 0)
+			(uuid "6ecfca93-e3b6-44d5-89ac-ec4b647e5815")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENABLE" input
+			(at 52.07 93.98 0)
+			(uuid "f90e7c3b-0c5c-4904-bac4-2d9b7bb74ef0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIAG" input
+			(at 52.07 96.52 0)
+			(uuid "72129aab-49f5-4820-b0cc-1e48caa9417f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "A1-Main-Board"
+				(path "/9d813fc3-a6a1-4e23-ab17-d125b692e1a2/c4b8059d-0776-437d-bd29-86172f3939cd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 62.23)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f561cc0-cecc-4b9d-8c7a-f3aaac7544b7")
+		(property "Sheetname" "stepstick1"
+			(at 39.37 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stepstick.kicad_sch"
+			(at 39.37 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "STEP" input
+			(at 52.07 64.77 0)
+			(uuid "ef17101d-351d-447a-93b9-86662013170e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART" input
+			(at 52.07 76.2 0)
+			(uuid "c8539ee6-396f-4566-8834-949b326dc021")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 52.07 67.31 0)
+			(uuid "f32413df-b49d-4165-af7c-f804fc6d99c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENABLE" input
+			(at 52.07 69.85 0)
+			(uuid "dda1c5af-87c2-476f-96e3-45d20fc277e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIAG" input
+			(at 52.07 72.39 0)
+			(uuid "0cea106b-4ae3-47d2-a1d3-8b11b4483fa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "A1-Main-Board"
+				(path "/9d813fc3-a6a1-4e23-ab17-d125b692e1a2/c4b8059d-0776-437d-bd29-86172f3939cd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 38.1)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3aa2540-bff6-4275-a49d-0ccfa2e7a55c")
+		(property "Sheetname" "stepstick"
+			(at 39.37 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stepstick.kicad_sch"
+			(at 39.37 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "STEP" input
+			(at 52.07 40.64 0)
+			(uuid "9b554cc0-f5d7-40b9-9352-c4a34c3a90f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART" input
+			(at 52.07 52.07 0)
+			(uuid "37437764-b87c-4110-9c37-b40a8fb1d745")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIR" input
+			(at 52.07 43.18 0)
+			(uuid "296020ad-0426-4fa0-bc0b-7f9bd557fe49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENABLE" input
+			(at 52.07 45.72 0)
+			(uuid "b5a015d2-e6eb-4be2-88ba-d5b271e1a6b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIAG" input
+			(at 52.07 48.26 0)
+			(uuid "4a2ac1d8-f339-4e39-9e7d-c21b0c94bfd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "A1-Main-Board"
+				(path "/9d813fc3-a6a1-4e23-ab17-d125b692e1a2/c4b8059d-0776-437d-bd29-86172f3939cd"
+					(page "2")
+				)
+			)
+		)
+	)
+)
