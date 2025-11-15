@@ -6101,7 +6101,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 58.42 0)
+		(at 39.37 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6109,7 +6109,7 @@
 		(dnp no)
 		(uuid "af274ab4-5816-4108-aca0-b906e7872a33")
 		(property "Reference" "R132"
-			(at 35.814 54.102 0)
+			(at 42.926 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +6118,7 @@
 			)
 		)
 		(property "Value" "100o"
-			(at 38.608 64.008 0)
+			(at 40.132 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +6127,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 37.592 58.42 90)
+			(at 41.148 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
