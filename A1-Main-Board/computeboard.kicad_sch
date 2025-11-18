@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a5e22727-2bdc-4209-8506-4cadd42db09d")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "THB_USB-"
+		(shape input)
+		(at 114.3 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0613f5b8-aa3a-4f51-86ea-8b2970e761e2")
+	)
+	(hierarchical_label "MB_UART_TX"
+		(shape input)
+		(at 114.3 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29c7a034-009a-4c24-a6bc-e79c1755551c")
+	)
+	(hierarchical_label "MB_UART_RX"
+		(shape input)
+		(at 114.3 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4abfc06a-0974-436d-bbb1-d0b7b093ab02")
+	)
+	(hierarchical_label "THB_UART_TX"
+		(shape input)
+		(at 114.3 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5272c866-9275-4fd7-b480-36e54083582d")
+	)
+	(hierarchical_label "THB_UART_RX"
+		(shape input)
+		(at 114.3 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f9cc58a-d619-49cf-be17-43e3ffdd7cd4")
+	)
+	(hierarchical_label "MB_USB-"
+		(shape input)
+		(at 114.3 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93782d82-7a60-4f21-933b-303c3bfd8a56")
+	)
+	(hierarchical_label "MB_USB+"
+		(shape input)
+		(at 114.3 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e237915-ee53-4f4c-8773-1010117620d1")
+	)
+	(hierarchical_label "THB_USB+"
+		(shape input)
+		(at 114.3 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4b691f5-18ea-42d5-b236-fc3d378e7fed")
+	)
+)

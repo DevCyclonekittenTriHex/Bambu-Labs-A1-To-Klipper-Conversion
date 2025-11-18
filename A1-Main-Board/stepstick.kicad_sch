@@ -1903,12 +1903,6 @@
 		(uuid "689303a3-c5ba-4f04-8a2c-1d8ac012d60f")
 	)
 	(junction
-		(at 44.45 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b5f67dd-9878-4ae2-80fa-378169ece6c9")
-	)
-	(junction
 		(at 95.25 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2082,16 +2076,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 83.82) (xy 44.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3944e4ab-2bf4-4fea-bf81-608eff4dc98e")
-	)
-	(wire
-		(pts
 			(xy 25.4 77.47) (xy 27.94 77.47)
 		)
 		(stroke
@@ -2179,26 +2163,6 @@
 			(type default)
 		)
 		(uuid "5a9babf7-6bb9-40c8-a089-2d33922e4908")
-	)
-	(wire
-		(pts
-			(xy 44.45 82.55) (xy 44.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ff30ce1-7cbe-4d81-b9c5-87757d568723")
-	)
-	(wire
-		(pts
-			(xy 44.45 83.82) (xy 44.45 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "637bfa03-a7d8-4dd5-9b0b-8ccd67a89746")
 	)
 	(wire
 		(pts
@@ -2332,6 +2296,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 85.09) (xy 44.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d173be04-3ecc-4dc2-8d25-36938e2cdb77")
+	)
+	(wire
+		(pts
 			(xy 97.79 74.93) (xy 95.25 74.93)
 		)
 		(stroke
@@ -2422,6 +2396,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 82.55) (xy 44.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef40a8e5-235e-4c89-a0c1-5ca020ed8fda")
+	)
+	(wire
+		(pts
 			(xy 129.54 73.66) (xy 128.27 73.66)
 		)
 		(stroke
@@ -2480,6 +2464,17 @@
 		)
 		(uuid "fd3eedb4-a570-4a81-b328-a2eeb1871870")
 	)
+	(hierarchical_label "MS2"
+		(shape input)
+		(at 39.37 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0205026c-8047-4f98-9f22-47b144a46a0e")
+	)
 	(hierarchical_label "DIAG"
 		(shape input)
 		(at 97.79 74.93 0)
@@ -2512,6 +2507,17 @@
 			(justify right)
 		)
 		(uuid "837efc0d-ad1a-4c57-8db7-ab275e0b4596")
+	)
+	(hierarchical_label "MS1"
+		(shape input)
+		(at 39.37 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c38eac81-ecf9-44c4-8b5f-f907f132410c")
 	)
 	(hierarchical_label "STEP"
 		(shape input)
@@ -2859,7 +2865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209-LA:QFN50P500X500X90-29N"
+		(property "Footprint" "footprints:TMC2209-LA"
 			(at 64.77 90.17 0)
 			(effects
 				(font
@@ -4690,80 +4696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 40.64 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fde564a6-b363-46da-8722-bbd877f4add8")
-		(property "Reference" "#PWR03"
-			(at 40.64 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b2638a2-8b12-4a5b-8cc2-c9c711fb694c")
-		)
-		(instances
-			(project "A1-Main-Board"
-				(path "/9d813fc3-a6a1-4e23-ab17-d125b692e1a2/c4b8059d-0776-437d-bd29-86172f3939cd/870b9616-0713-440f-86ea-848a0e7cfb1d"
-					(reference "#PWR030")
-					(unit 1)
-				)
-				(path "/9d813fc3-a6a1-4e23-ab17-d125b692e1a2/c4b8059d-0776-437d-bd29-86172f3939cd/9f561cc0-cecc-4b9d-8c7a-f3aaac7544b7"
-					(reference "#PWR015")
-					(unit 1)
-				)
-				(path "/9d813fc3-a6a1-4e23-ab17-d125b692e1a2/c4b8059d-0776-437d-bd29-86172f3939cd/c3aa2540-bff6-4275-a49d-0ccfa2e7a55c"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 97.79 87.63 0)
 		(unit 1)
@@ -4782,7 +4714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "MotorJST"
 			(at 100.33 90.1699 0)
 			(effects
 				(font
@@ -4791,7 +4723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 97.79 87.63 0)
 			(effects
 				(font

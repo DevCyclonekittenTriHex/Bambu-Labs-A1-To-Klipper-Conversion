@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "8e245119-a888-43c4-acb1-e422052d954a")
+	(uuid "fdd9cea9-a591-4386-b742-b81b92a8a71d")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:USB_C_Plug"
@@ -1372,6 +1372,53 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Toolhead Incoming"
+		(exclude_from_sim no)
+		(at 119.634 39.878 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "1718846f-e7a1-47bd-a672-bda6b7012381")
+	)
+	(text "BACKUP TO RPZ2"
+		(exclude_from_sim no)
+		(at 197.358 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5073d7b1-35ee-4074-bd2c-535bbbff2c52")
+	)
+	(text "BACKUP TO CM4"
+		(exclude_from_sim no)
+		(at 196.85 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "7fe81de2-8b53-4bed-9627-7d23a61ae4f4")
+	)
+	(text "TO CM4"
+		(exclude_from_sim no)
+		(at 192.278 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "98db4935-cffb-4bba-9ece-28260ac6fbf0")
+	)
 	(text "RECIEVE = UART"
 		(exclude_from_sim no)
 		(at 141.986 80.772 0)
@@ -1383,6 +1430,18 @@
 			)
 		)
 		(uuid "b288365e-8d06-405b-844e-887b818a4bcf")
+	)
+	(text "TO RPZ2"
+		(exclude_from_sim no)
+		(at 193.294 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e64cf645-58c0-4cea-9961-46d6cfb65eee")
 	)
 	(text "TRANSMIT = 5V"
 		(exclude_from_sim no)

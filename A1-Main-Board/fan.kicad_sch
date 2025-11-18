@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c527b5d9-f2dc-45c6-a838-5198dc174d4b")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "MB_FAN_PWM"
+		(shape input)
+		(at 137.16 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "771bba9a-8474-4a55-af75-257ae9a166d9")
+	)
+	(hierarchical_label "MB_FAN_TACH"
+		(shape input)
+		(at 137.16 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afcae2a9-9b77-4f29-9424-3c8cc62134c5")
+	)
+)
